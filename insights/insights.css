@@ -134,3 +134,15 @@
 .evidence-track{background:#B9C6CF}
 /* Step 05 signals value created and protected. */
 .featured-method-sequence span:last-child{border-top-color:#66856F}
+
+/* Sightlines Lens List v1.0 — icon-led questions, not tabular data. */
+.article-content .lens-list{background:#fff;border:1px solid #B9C6CF;border-radius:3px;margin:28px 0 34px;color:#0E2A3B}
+.lens-list-items{padding:4px 25px}
+.lens-list-item{display:grid;grid-template-columns:140px minmax(0,1fr);column-gap:35px;align-items:center;padding:22px 0;border-bottom:1px solid #B9C6CF}
+.lens-list-item:last-child{border-bottom:0}
+.lens-list-identity{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:11px;text-align:center;min-width:0}
+.lens-list-identity img{display:block;width:40px;height:40px;opacity:.83}
+.lens-list-label{color:#0E2A3B;font-size:14px;line-height:1.35;font-weight:600}
+.article-content .lens-list-question{margin:0;color:#294958;font-size:15px;line-height:1.65}
+.article-content .lens-list-source{margin:0;padding:14px 25px 17px;border-top:1px solid #B9C6CF;font-size:12px;line-height:1.6;color:#496476}
+@media(max-width:650px){.lens-list-items{padding:0 16px}.lens-list-item{grid-template-columns:95px minmax(0,1fr);column-gap:15px;padding:20px 0}.lens-list-identity img{width:34px;height:34px}.lens-list-label{font-size:12px}.article-content .lens-list-question{font-size:14px;line-height:1.55}.article-content .lens-list-source{padding:13px 16px 16px}}
