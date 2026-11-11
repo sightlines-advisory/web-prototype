@@ -62,3 +62,12 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Article HTML commit: `73aabaf19703763b8977c99d5211c319fccaf16e`; resulting blob SHA: `8fbc373b6a203f13cfb204b2f27c29385b612ce5`.
 - Implemented opening, outputs/ownership table, evidence status definitions and management close. Original five steps, download section and two related readings retained.
 - Content replacement checks passed. Browser visual/mobile, external PDF link and publication source checks remain pending; **not publication approved**.
+
+## Cross-article illustrative company distribution task — added 12 November 2026
+**Status: Open; assess during each article's editorial review; no article substitutions pre-approved.**
+- Use the editorial suite's illustrative company and leadership register as the controlled source, including proposed C5 scaleup **Verdant Grid Technologies Pty Ltd** (fictional).
+- Inventory company mentions across all 12 articles; track each company's appearances, sector, persona fit, decision relevance and executive voice. Aim for an **even, purposeful spread**, not an artificial equal quota.
+- Identify articles where Verdant Grid's opportunity-led scaleup, energy storage, investor readiness, growth constraints or reporting applicability genuinely strengthen the illustration. Propose displacing a less apt existing company where appropriate; preserve evidence, narrative continuity and explicit fictional status.
+- Show **Before / Proposed / Reason** for every substitution, including Verdant Grid executive name, role and question; obtain editorial approval before staging edits.
+- Prioritise evaluation in the scenario, warming projections, value creation, investor and transition enabler articles; do not change examples merely to equalise counts.
+- Maintain a distribution matrix and revisit after all four batches.
