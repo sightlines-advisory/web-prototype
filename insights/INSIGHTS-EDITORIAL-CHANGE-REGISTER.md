@@ -15,7 +15,7 @@ Established 12 November 2026. Repository: `sightlines-advisory/web-prototype`; d
 
 | ID | Batch | Article (staging path) | Baseline HTML blob SHA | Editorial decision | Byline (current or to confirm) | Opening | Body | Closing | Approval | Implementation |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 01 | Batch 1 | [five-steps-confident-start-climate-reporting](https://sightlines-advisory.github.io/web-prototype/insights/five-steps-confident-start-climate-reporting.html) | `dcf7af55667f021720b72649df752ee6b1a7f321` | Keep and elevate: outputs, ownership and next actions; retain Sean voice | Sean Rugers | Partial | Partial | Partial | Not requested | Not started |
+| 01 | Batch 1 | [five-steps-confident-start-climate-reporting](https://sightlines-advisory.github.io/web-prototype/insights/five-steps-confident-start-climate-reporting.html) | `dcf7af55667f021720b72649df752ee6b1a7f321` | Keep and elevate: outputs, ownership and next actions; retain Sean voice | Sean Rugers | Partial | Partial | Partial | Approved with amendments (12 Nov 2026) | Implemented; staging verification pending |
 | 02 | Batch 1 | [how-climate-risks-affect-company-value](https://sightlines-advisory.github.io/web-prototype/insights/how-climate-risks-affect-company-value.html) | `42ab5eee62a33da76e176f0d143806fe3bf29739` | Add worked risk to financial consequence illustration; link future Method | Confirm | Partial | Partial | Partial | Not requested | Not started |
 | 03 | Batch 1 | [global-warming-projections-business](https://sightlines-advisory.github.io/web-prototype/insights/global-warming-projections-business.html) | `7fb306014ae77b21705b51afef05a773b7bbc9a4` | Keep deep Explainer; add executive summary and decision checklist at top; preserve links | Susan McHattie | Partial | Pass | Partial | Not requested | Not started |
 | 04 | Batch 2 | [how-climate-scenarios-are-useful](https://sightlines-advisory.github.io/web-prototype/insights/how-climate-scenarios-are-useful.html) | `8ee65e7a83536e7a6e4881104c754fe50fc28e18` | Make scenario selection, consequences and decisions explicit | Susan McHattie | Pending | Pending | Pending | Not requested | Not started |
@@ -56,3 +56,9 @@ Established 12 November 2026. Repository: `sightlines-advisory/web-prototype`; d
 
 ## Implementation log
 No article implementation commits or approvals yet. Initial register commit is recorded in the GitHub file history.
+
+### Article 01 implementation — 12 November 2026
+- Approved four proposed changes with ownership amendments: Step 2 **Finance, with Risk, Sustainability and Operations**; Step 4 **Finance, with Operations, Sustainability and Procurement**.
+- Article HTML commit: `73aabaf19703763b8977c99d5211c319fccaf16e`; resulting blob SHA: `8fbc373b6a203f13cfb204b2f27c29385b612ce5`.
+- Implemented opening, outputs/ownership table, evidence status definitions and management close. Original five steps, download section and two related readings retained.
+- Content replacement checks passed. Browser visual/mobile, external PDF link and publication source checks remain pending; **not publication approved**.
