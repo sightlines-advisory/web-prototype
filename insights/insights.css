@@ -208,3 +208,9 @@
 }
 @media(max-width:1099px){.article-content>.article-table-scroll,.article-content>.evidence-figure,.article-content>.lens-list,.article-content>.article-source-figure{width:100%;max-width:100%;margin-left:0;margin-right:0}}
 @media(max-width:760px){.article-content{width:calc(100% - 2 * var(--insights-page-gutter));padding:46px 0 70px}.article-hero{padding:64px var(--insights-page-gutter) 48px}.article-content>.article-table-scroll{overflow-x:auto}}
+
+/* Approved Insight tile Option A: Copper field, pale heading, white title, Amber half rule. */
+.tile-art--insight{background:#B66A3C;color:#FFFFFF}
+.tile-art--insight p{color:#F2E5DB}
+.tile-art--insight strong{color:#FFFFFF}
+.tile-art--insight .insight-rule{background:#E28A3A;width:50%;height:3px}
