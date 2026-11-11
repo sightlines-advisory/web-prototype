@@ -70,3 +70,23 @@
 .article-content .method-download a{display:inline-block;color:#fff;text-decoration:underline;text-decoration-color:#E28A3A;text-decoration-thickness:2px;text-underline-offset:5px}
 .article-content .method-download a:hover{text-decoration-thickness:3px}
 @media(max-width:760px){.featured-method{grid-template-columns:1fr;margin:24px 7vw 0}.featured-method-cover{min-height:260px;padding:24px}.featured-method-cover-title{font-size:35px;margin:23px 0 12px}.featured-method-copy{padding:27px 24px}.featured-method-actions{align-items:stretch;flex-direction:column}.featured-method-primary{text-align:center}}
+
+/* Unified editorial tables: desktop readability and horizontal scrolling on narrow screens. */
+.article-content .article-table-scroll,.article-content .table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;margin:26px 0 38px;border:1px solid #d3ddde;border-radius:3px;background:#fff}
+.article-content .article-table-scroll:focus-visible,.article-content .table-scroll:focus-visible{outline:3px solid #B66A3C;outline-offset:3px}
+.article-content .article-table-scroll table,.article-content .table-scroll table{width:100%;border-collapse:collapse;border-spacing:0;color:#294958;font-size:14px;line-height:1.55;table-layout:auto}
+.article-content .article-table-scroll th,.article-content .article-table-scroll td,.article-content .table-scroll th,.article-content .table-scroll td{padding:13px 15px;border:0;border-right:1px solid #d3ddde;border-bottom:1px solid #d3ddde;text-align:left;vertical-align:top;overflow-wrap:break-word;hyphens:auto}
+.article-content .article-table-scroll tr>*:last-child,.article-content .table-scroll tr>*:last-child{border-right:0}
+.article-content .article-table-scroll tbody tr:last-child>*,.article-content .table-scroll tbody tr:last-child>*{border-bottom:0}
+.article-content .article-table-scroll thead th,.article-content .table-scroll thead th{background:#e7eceb;color:#0E2A3B;font-weight:600;line-height:1.4}
+.article-content .article-table-scroll tbody tr:nth-child(even),.article-content .table-scroll tbody tr:nth-child(even){background:#f5f7f6}
+.article-content .article-table-scroll tbody td:first-child,.article-content .table-scroll tbody td:first-child{font-weight:550;color:#183746}
+.article-content .table-scroll table{min-width:0}
+@media(max-width:760px){
+ .article-content .article-table-scroll,.article-content .table-scroll{margin:20px 0 30px}
+ .article-content .article-table-scroll table,.article-content .table-scroll table{font-size:13px;line-height:1.5}
+ .article-content .article-table-scroll th,.article-content .article-table-scroll td,.article-content .table-scroll th,.article-content .table-scroll td{padding:11px 12px}
+ .article-content .article-table-scroll table:has(thead th:nth-child(3)),.article-content .table-scroll table:has(thead th:nth-child(3)){min-width:660px}
+ .article-content .article-table-scroll table:has(thead th:nth-child(4)),.article-content .table-scroll table:has(thead th:nth-child(4)){min-width:820px}
+ .article-content .article-table-scroll table:not(:has(thead th:nth-child(3))),.article-content .table-scroll table:not(:has(thead th:nth-child(3))){min-width:0}
+}
