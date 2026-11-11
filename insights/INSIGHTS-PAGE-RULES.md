@@ -21,9 +21,9 @@ Every article has:
 
 - title and plain-language standfirst;
 - content type;
-- one to three approved Topic facets;
+- one to three approved Topic facets (including Climate value where the article connects climate action to business performance);
 - AASB S2 and transition-planning facets where relevant;
-- one maturity label;
+- one or two maturity labels, where relevant;
 - approved author/byline, date and reading time;
 - source, attribution, image-credit and quotation constraints where applicable.
 
@@ -37,13 +37,14 @@ Use only approved Topics. The current controlled set includes:
 
 - Climate disclosure
 - Enterprise value
+- Climate value
 - Governance
 - **Data**
 - **AI**
 
 Add new Topics only when they will be used repeatedly and can be understood without internal jargon.
 
-### Content type — select one
+### Content type — select exactly one
 
 - Explainer
 - Insight
@@ -68,7 +69,7 @@ Add new Topics only when they will be used repeatedly and can be understood with
 - Implementation
 - Accountability
 
-### Maturity — select one
+### Maturity — select one or two where relevant
 
 - First disclosure
 - Strengthening disclosures
@@ -163,3 +164,14 @@ Do not introduce headings or conspicuous labels merely to classify these stateme
 - Attribute external claims in natural prose to named primary sources and provide source links or a references section when approved. Do not fabricate links, quotations or bibliographic details. Staging-only source notes flag verification still required.
 - Preserve authorial voice, approved source text and editorial distinctions between requirements, established evidence, interpretation and illustration.
 - Check 360px mobile, tablet and desktop widths, keyboard focus, long titles and table overflow before release.
+
+## 12. Approved editorial components and research controls (November 2026)
+
+- **Insight** is the single article type for authored interpretation of research. “Research” may describe the evidence base, but must not appear as a second article type. The Insight tile uses a Mist Grey uppercase AASB S2 heading, Steel Blue headline and Amber half-line.
+- **Evidence Figure:** white background, Mist Grey borders, Steel Blue neutral measures, Green Copper opportunity or value, Copper constraints. Cite primary source, sample, geography, date, denominator and material qualifications. Do not repeat each plotted statistic verbatim in adjacent prose.
+- **Illustrative Company:** no enclosing border; small Green Copper label, semibold Deep Navy company name, 48px by 3px Green Copper rule. Avoid repeating the name in the first sentence. Fictional outcomes must not be described as observed evidence.
+- **Lens List:** icon-led questions, labels without hyphens, source note; not a table.
+- **Five Steps Method:** five separated 3px lines above numbers, four Steel Blue and final Green Copper.
+- **Closing question:** bold the final substantive question where the article ends with one. Do not manufacture a question where the article ends with a statement or call to action.
+- **Research verification:** check the primary report for exact measures, respondent definition, denominator, fieldwork dates, relative versus absolute percentages, limitations and reuse rights. Treat reported associations as non-causal. Flag source-cover artwork pending rights clearance rather than substituting an unapproved image.
+- **Publication gate:** verify 360px, 768px and desktop layouts, keyboard focus, accessible figures, valid links, byline approval, image rights and remove staging noindex only after publication approval.
