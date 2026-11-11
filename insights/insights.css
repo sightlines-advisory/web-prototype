@@ -154,3 +154,8 @@
 .article-content .illustrative-company h3{margin:0;color:#0E2A3B;font-size:18px;line-height:1.4;font-weight:600}
 .illustrative-company-rule{display:block;width:48px;height:3px;background:#66856F;margin-top:2px}
 .article-content .illustrative-company p{margin:0;color:#294958}
+
+/* Five Steps cover: five separated 3px rules; Step 05 is the Green Copper value line. */
+.featured-method-sequence{gap:8px}
+.featured-method-sequence span{border-top-width:3px;border-top-style:solid}
+.featured-method-sequence span:last-child{border-top-color:#66856F}
