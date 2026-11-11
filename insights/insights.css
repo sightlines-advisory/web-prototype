@@ -30,3 +30,15 @@
   text-align: left;
   vertical-align: top;
 }
+
+/* Featured Method — deep navy, compact five-step rhythm and copper rule from the guide */
+.featured-method{display:grid;grid-template-columns:minmax(270px,.9fr) minmax(0,1.1fr);margin:44px 7vw 0;background:#f2f5f3;border-top:4px solid #0e2a3b;overflow:hidden}
+.featured-method-cover{display:flex;flex-direction:column;min-height:340px;padding:30px 34px 26px;background:#0e2a3b;color:#fff}
+.featured-method-kicker{margin:0;color:#c6d7dc;font-size:11px;font-weight:700;letter-spacing:.18em}
+.featured-method-cover strong{display:block;margin:30px 0 20px;font-size:clamp(34px,3.5vw,53px);line-height:1.04;letter-spacing:-.04em}
+.featured-method-steps{display:flex;gap:6px;margin-top:auto}.featured-method-steps span{flex:1;padding:9px 0 6px;border-top:2px solid #6c8b91;color:#e4eeee;font-size:12px;font-weight:700;text-align:center}.featured-method-steps span:last-child{border-top-color:#b66a3c}
+.featured-method-rule{height:4px;width:75px;margin-top:20px;background:#b66a3c}
+.featured-method-footer{margin:13px 0 0;color:#c6d7dc;font-size:10px;font-weight:700;letter-spacing:.12em}
+.featured-method-copy{padding:38px 42px;display:flex;flex-direction:column;justify-content:center}.featured-method-copy h2{font-size:clamp(26px,3vw,39px);line-height:1.13;margin:12px 0 16px}.featured-method-copy h2 a{color:#0e2a3b;text-decoration:none}.featured-method-copy h2 a:hover{text-decoration:underline}.featured-method-copy>p{color:#365263}.featured-method-byline{font-weight:700;font-size:13px}
+.method-steps{padding-left:27px}.method-steps li{padding-left:9px;margin:20px 0}.method-download{margin:44px 0;padding:26px 30px;background:#0e2a3b;color:#fff;border-left:5px solid #b66a3c}.method-download .eyebrow,.method-download h2,.method-download p{color:#fff}.method-download a{color:#f1b27b;font-weight:700}
+@media(max-width:760px){.featured-method{grid-template-columns:1fr;margin:28px 7vw 0}.featured-method-cover{min-height:280px;padding:26px}.featured-method-copy{padding:28px}.featured-method-cover strong{margin:24px 0;font-size:40px}}
