@@ -146,3 +146,11 @@
 .article-content .lens-list-question{margin:0;color:#294958;font-size:15px;line-height:1.65}
 .article-content .lens-list-source{margin:0;padding:14px 25px 17px;border-top:1px solid #B9C6CF;font-size:12px;line-height:1.6;color:#496476}
 @media(max-width:650px){.lens-list-items{padding:0 16px}.lens-list-item{grid-template-columns:95px minmax(0,1fr);column-gap:15px;padding:20px 0}.lens-list-identity img{width:34px;height:34px}.lens-list-label{font-size:12px}.article-content .lens-list-question{font-size:14px;line-height:1.55}.article-content .lens-list-source{padding:13px 16px 16px}}
+
+/* Sightlines illustrative company treatment v1.0 — unbordered, value-seeking Green Copper identity. */
+.article-content .illustrative-company{margin:27px 0 31px;padding:0;background:transparent;border:0}
+.illustrative-company-header{display:flex;flex-direction:column;align-items:flex-start;gap:5px;margin-bottom:13px}
+.illustrative-company-kicker{color:#66856F;font-size:10px;font-weight:600;letter-spacing:.1em;line-height:1.5}
+.article-content .illustrative-company h3{margin:0;color:#0E2A3B;font-size:18px;line-height:1.4;font-weight:600}
+.illustrative-company-rule{display:block;width:48px;height:3px;background:#66856F;margin-top:2px}
+.article-content .illustrative-company p{margin:0;color:#294958}
