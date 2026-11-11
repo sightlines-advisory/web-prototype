@@ -49,6 +49,7 @@ Add new Topics only when they will be used repeatedly and can be understood with
 - Insight
 - Method
 - Guide
+- Research
 - Observed case
 - Case study
 - Interview
@@ -105,7 +106,14 @@ Use **Observed case** whenever Sightlines does not have an approved client relat
 
 ## 6. Authorship, quotation and sources
 
-- Use `By Sightlines Advisory` unless a named author is approved.
+**Institutional byline policy:**
+
+- Use **[Approved author name] | Sightlines Advisory** when an identifiable team member led the writing, research synthesis or professional interpretation and has approved the attribution. All current Explainers are attributed to **Susan McHattie | Sightlines Advisory**; the Five Steps Method is attributed to **Sean Rugers | Sightlines Advisory**.
+- Use **Sightlines Advisory** alone only for a genuinely collective, institutional resource with no agreed lead author. Do not use it to avoid confirming authorship.
+- Where appropriate, add **With contributions from [name]** only after the contributor approves. Do not invent co-authors or imply endorsement.
+- A named byline identifies editorial responsibility, not sole ownership of research or claims. Verify source attribution independently.
+- Present the author consistently on the landing card and article, followed by publication month/year, estimated reading time and audience maturity.
+- Changes to authorship require the relevant author's approval; retain draft/staging status until approved.
 - Mark approved `PULL QUOTE` and `SHAREABLE INSIGHT` text explicitly in source material.
 - Flag non-quotable language, required attribution, image credits and mandatory source links.
 - Do not publish unapproved material, client claims or external-source imagery without the required permissions.
@@ -120,10 +128,7 @@ Use **Observed case** whenever Sightlines does not have an approved client relat
 
 ## 8. Article recommendations
 
-At the bottom of an article, show up to three recommendations only when a genuine set is available:
-
-1. two related articles; and
-2. one complementary perspective, preferably by another Sightlines author.
+At the bottom of each current article, show **two** curated related articles with one-sentence reasons to read them. Add a third, complementary perspective only after the library includes sufficient published Insight, Method or Observed case material to make it meaningful.
 
 Never recommend the current article. Do not show invented recommendations, empty modules, endless scrolling or generic carousels.
 
@@ -148,3 +153,13 @@ Use natural sentences, not repeated badges or new section headings, to make the 
 - **Illustration:** identify fictional companies and hypothetical outcomes in the narrative, for example, “Junction Freight Services, our fictional Australian distribution business …”.
 
 Do not introduce headings or conspicuous labels merely to classify these statements. Preserve the author’s original framing and voice; these distinctions supplement primary-source checks.
+
+## 11. Standard reading template and article journeys
+
+- Every article uses an editorial eyebrow, title, plain-language standfirst, author byline, month/year, estimated reading time and maturity label in that order.
+- Add one or more contextual links where the prose genuinely connects to another published article. Use descriptive link text; avoid keyword stuffing and circular cross-links.
+- End with **Continue exploring**, two relevant articles, short explanations, and **Return to the Insights library** linking to the library anchor. Do not add a third recommendation until editorial diversity warrants it.
+- Format all article tables with a consistent header, top-left aligned cells, clear borders and restrained zebra stripes. For narrow viewports, scroll the table horizontally within a keyboard-focusable labelled region; do not squeeze multi-column tables to illegibility.
+- Attribute external claims in natural prose to named primary sources and provide source links or a references section when approved. Do not fabricate links, quotations or bibliographic details. Staging-only source notes flag verification still required.
+- Preserve authorial voice, approved source text and editorial distinctions between requirements, established evidence, interpretation and illustration.
+- Check 360px mobile, tablet and desktop widths, keyboard focus, long titles and table overflow before release.
