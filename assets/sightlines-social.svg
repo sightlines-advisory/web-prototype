@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sightlines Advisory</title><desc id="desc">From risk to opportunity.</desc>
+  <rect width="1200" height="630" fill="#EEE9E1"/>
+  <text x="88" y="105" fill="#0E2A3B" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="7">SIGHTLINES ADVISORY</text>
+  <text x="88" y="260" fill="#0E2A3B" font-family="Montserrat, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-4">From risk</text>
+  <text x="88" y="355" fill="#0E2A3B" font-family="Montserrat, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-4">to opportunity.</text>
+  <text x="88" y="448" fill="#365263" font-family="Montserrat, Arial, sans-serif" font-size="29">Climate strategy, AASB S2 and enterprise value.</text>
+  <g fill="none" stroke-linecap="round">
+    <path d="M750 175 L1060 330" stroke="#5F7789" stroke-width="3"/>
+    <path d="M750 255 L1060 330" stroke="#8AA0AF" stroke-width="3"/>
+    <path d="M750 410 L1060 330" stroke="#B66A3C" stroke-width="3"/>
+    <path d="M750 490 L1060 330" stroke="#5F7789" stroke-width="3"/>
+  </g>
+  <circle cx="1060" cy="330" r="24" fill="#E6DED3"/><circle cx="1060" cy="330" r="13" fill="#B66A3C"/>
+  <text x="88" y="560" fill="#66856F" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="600">sightlines-advisory.com.au</text>
+</svg>
