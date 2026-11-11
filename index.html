@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Sightlines — Web Prototype</title>
+  <style>
+    :root { --ink:#13332c; --green:#167d62; --mint:#e7f3ee; --cream:#fbfaf5; --line:#cbdcd5; --muted:#597068; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--cream); }
+    .notice { padding:10px 20px; background:var(--ink); color:#fff; font-size:13px; text-align:center; }
+    header, main, footer { max-width:1120px; margin:auto; padding-left:28px; padding-right:28px; }
+    header { display:flex; justify-content:space-between; align-items:center; padding-top:25px; padding-bottom:25px; }
+    .brand { font-size:23px; letter-spacing:-.8px; font-weight:750; } .brand span { color:var(--green); }
+    nav { display:flex; gap:24px; font-size:14px; color:var(--muted); }
+    .hero { padding:78px 0 66px; max-width:790px; }
+    .eyebrow { margin:0 0 14px; font-weight:700; font-size:12px; letter-spacing:1.7px; color:var(--green); }
+    h1 { font-size:clamp(42px,7vw,75px); line-height:.98; letter-spacing:-3.7px; margin:0 0 26px; }
+    .hero p { max-width:650px; font-size:20px; line-height:1.55; color:var(--muted); }
+    .actions { margin-top:32px; display:flex; flex-wrap:wrap; gap:12px; }
+    .button { display:inline-block; padding:12px 17px; border-radius:3px; text-decoration:none; font-size:14px; font-weight:700; }
+    .button.primary { background:var(--green); color:#fff; } .button.secondary { color:var(--ink); border:1px solid var(--line); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; padding:18px 0 74px; }
+    .card { background:#fff; border:1px solid var(--line); padding:26px; min-height:205px; }
+    .num { color:var(--green); font-weight:750; font-size:13px; } h2 { font-size:23px; letter-spacing:-.7px; margin:16px 0 10px; } .card p { line-height:1.5; color:var(--muted); margin:0; }
+    .edit { margin:0 0 75px; border-left:4px solid var(--green); background:var(--mint); padding:28px; } .edit h2 { margin-top:0; } .edit code { background:#fff; padding:2px 5px; }
+    footer { padding-top:24px; padding-bottom:34px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media (max-width:700px) { nav { display:none; } .grid { grid-template-columns:1fr; } .hero { padding-top:48px; } }
+  </style>
+</head>
+<body>
+  <div class="notice">SIGHTLINES PROTOTYPE — working page, not client-ready</div>
+  <header>
+    <div class="brand">SIGHT<span>LINES</span></div>
+    <nav><span>Climate reporting</span><span>Strategy</span><span>About</span></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">WEB PROTOTYPE WORKSPACE</p>
+      <h1>Make climate reporting useful to the business.</h1>
+      <p>A live, editable prototype for developing Sightlines’ messages, offers and client experiences. This page is deliberately a starting point.</p>
+      <div class="actions"><a class="button primary" href="#start">Explore the prototype</a><a class="button secondary" href="https://github.com/sightlines-advisory/web-prototype">View source</a></div>
+    </section>
+    <section class="grid">
+      <article class="card"><div class="num">01</div><h2>Start with the business</h2><p>Connect climate conditions to operations, cash flows, financing and decisions—not a separate ESG narrative.</p></article>
+      <article class="card"><div class="num">02</div><h2>Build reporting confidence</h2><p>Use the finance disciplines already in place: evidence, controls, reconciliations and a defensible reporting file.</p></article>
+      <article class="card"><div class="num">03</div><h2>Find the value</h2><p>Turn the reporting process into sharper decisions on resilience, risk, customers and capital.</p></article>
+    </section>
+    <section id="start" class="edit">
+      <h2>For Susan: how to use this workspace</h2>
+      <p>Ask ChatGPT to make changes in the <code>sightlines-advisory/web-prototype</code> GitHub repository. Refresh this page after the GitHub Pages deployment completes. Keep changes as prototypes until David and Eskee promote them to the main Sightlines site.</p>
+    </section>
+  </main>
+  <footer>© Sightlines Advisory · Prototype workspace · Last updated 11 November 2026</footer>
+</body>
+</html>
