@@ -45,9 +45,10 @@ Add new Topics only when they will be used repeatedly and can be understood with
 
 ### Content type — select one
 
-- Fact
+- Explainer
 - Insight
 - Method
+- Guide
 - Observed case
 - Case study
 - Interview
@@ -78,7 +79,7 @@ Show content type and maturity prominently. Present AASB S2 and transition-plann
 
 - Standard tile proportion: **4:5 portrait**.
 - The visual cover occupies about **42–45%** of the card.
-- Typographic tiles are for Facts and Methods: Facts are light/evidence-led; Methods are ink-navy/dark and structured.
+- Typographic tiles are for Explainers, Guides and Methods: Explainers are light/evidence-led; Guides are practical and action-oriented; Methods are ink-navy/dark and structured.
 - Photographic tiles are for Case studies and Interviews. Keep the heading below the image; do not heavily tint it.
 - Sightlines illustrated/infographic tiles are for data, changing conditions, evidence pathways, analytical pathways and the Climate Value Framework.
 - Use one clear analytical proposition per tile, not a dense mini-infographic.
@@ -136,3 +137,14 @@ Before publication, confirm this rules file has been applied, then verify:
 - observed-case/client-relationship framing;
 - stable URL, title and metadata;
 - only genuine related-article recommendations.
+
+## 10. Evidentiary distinctions within articles
+
+Use natural sentences, not repeated badges or new section headings, to make the status of information clear:
+
+- **Established evidence:** attribute claims to named primary sources, with uncertainty and relevant dates.
+- **Requirements:** write directly, for example, “AASB S2 requires …”, specifying applicability when necessary.
+- **Interpretation:** signal the author’s reasoning through language such as “For businesses, this suggests …” rather than attributing conclusions to the source.
+- **Illustration:** identify fictional companies and hypothetical outcomes in the narrative, for example, “Junction Freight Services, our fictional Australian distribution business …”.
+
+Do not introduce headings or conspicuous labels merely to classify these statements. Preserve the author’s original framing and voice; these distinctions supplement primary-source checks.
