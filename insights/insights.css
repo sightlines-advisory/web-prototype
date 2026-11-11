@@ -159,3 +159,20 @@
 .featured-method-sequence{gap:8px}
 .featured-method-sequence span{border-top-width:3px;border-top-style:solid}
 .featured-method-sequence span:last-child{border-top-color:#66856F}
+
+/* Insight research tile v1 — mist heading, Steel Blue title, Amber half-rule. */
+.tile-art--insight{display:flex;flex-direction:column;background:#F3F5F3;color:#5F7789}
+.tile-art--insight p{color:#8B9DA8;font-size:11px;letter-spacing:.14em}
+.tile-art--insight strong{font-size:clamp(32px,3.6vw,45px);line-height:1.06;margin-top:28px;color:#5F7789}
+.insight-rule{display:block;width:50%;height:3px;background:#E28A3A;margin-top:auto}
+/* Report image slot: original report cover requires a cleared source asset. */
+.article-content .south-pole-report-reference{margin:16px 0 36px}
+.south-pole-report-reference>a{text-decoration:none;display:block;max-width:390px}
+.south-pole-report-cover-pending{display:flex;flex-direction:column;gap:20px;justify-content:center;min-height:360px;padding:30px;background:#0E2A3B;color:#fff;border-bottom:4px solid #66856F}
+.south-pole-report-cover-pending>span:first-child{font-size:11px;letter-spacing:.14em;color:#B9C6CF}
+.south-pole-report-cover-pending strong{font-size:34px;line-height:1.1;color:#fff}
+.south-pole-report-cover-pending>span{font-size:17px}
+.south-pole-report-cover-pending .report-cover-link{font-size:12px;color:#B9C6CF;margin-top:auto}
+.south-pole-report-reference figcaption{font-size:12px;line-height:1.6;color:#496476;margin-top:10px}
+.article-content .evidence-figure-qualification{margin:0;padding:0 0 12px;font-size:12px;color:#496476;line-height:1.6}
+@media(max-width:650px){.south-pole-report-cover-pending{min-height:290px}}
