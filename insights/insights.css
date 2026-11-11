@@ -8,3 +8,18 @@
 .article-hero { padding:8vw 18vw 6vw; background:linear-gradient(125deg,#f8f9f6 52%,#e4ecec); }.article-hero h1 { max-width:950px; margin:22px 0; }.article-hero .lede { max-width:760px; }.article-hero-image { width:100%; height:clamp(240px,34vw,500px); display:block; object-fit:cover; }.article-meta { display:flex; flex-wrap:wrap; gap:8px 18px; margin:22px 0 0; letter-spacing:.08em; }.article-meta span + span::before { content:"/"; color:var(--warm); margin-right:18px; }
 .article-content { max-width:760px; margin:0 auto; padding:82px 0 110px; }.article-content > p { color:#294958; font-size:19px; line-height:1.72; }.article-content h2 { margin:52px 0 18px; font-size:32px; }.article-content ul { margin:20px 0 30px; padding-left:24px; }.article-content li { color:#294958; font-size:18px; margin:12px 0; }.article-callout { margin:42px 0; padding:28px 30px; border-left:4px solid var(--warm); background:#e7eceb; color:#244455; font-size:19px; line-height:1.55; font-weight:600; }.article-back { padding:36px 7vw; border-top:1px solid var(--line); background:#f3f5f3; }.article-back a { color:var(--ink); font-weight:650; text-decoration:none; }
 @media(max-width:760px) { .insights-hero { grid-template-columns:1fr; padding:18vw 7vw 15vw; gap:36px; }.insights-grid { grid-template-columns:1fr; }.insights-grid-section { padding:72px 7vw; }.article-hero { padding:18vw 7vw 13vw; }.article-content { padding:62px 7vw 82px; }.article-content > p { font-size:17px; }.article-content h2 { font-size:28px; }.insights-grid-header { align-items:flex-start; flex-direction:column; gap:10px; } }
+
+/* Climate risk fact tile and accessible article tables */
+.card--fact { border-top-color:var(--slate); }
+.card--fact .insight-type { color:var(--slate); }
+.tile-art--fact { display:flex; flex-direction:column; background:#e9e7e1; color:#41677e; }
+.tile-art--fact p { color:#85959c; font-size:11px; }
+.tile-art--fact strong { font-size:clamp(32px,3.6vw,45px); line-height:1.06; margin-top:28px; }
+.fact-rule { display:block; width:52%; height:4px; margin-top:auto; background:var(--warm); }
+.article-table-scroll { overflow-x:auto; margin:28px 0 40px; }
+.risk-table { width:100%; border-collapse:collapse; font-size:14px; line-height:1.55; color:#294958; }
+.risk-table th,.risk-table td { padding:13px 12px; border:1px solid #d3ddde; text-align:left; vertical-align:top; }
+.risk-table th { background:#e7eceb; color:#183746; font-weight:700; }
+.risk-table tbody tr:nth-child(even) { background:#f5f7f6; }
+@media(min-width:900px) { .article-content:has(.risk-table) { max-width:1080px; } .article-content:has(.risk-table) > p,.article-content:has(.risk-table) > ul,.article-content:has(.risk-table) > h2,.article-content:has(.risk-table) > .article-callout { max-width:760px; margin-left:auto; margin-right:auto; } }
+@media(max-width:760px) { .risk-table { min-width:700px; } }
