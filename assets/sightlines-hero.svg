@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Sightlines converge on insight</title>
+  <desc id="desc">Four fine lines converge precisely at a copper point.</desc>
+  <g fill="none" stroke-linecap="round" stroke-width="3">
+    <path d="M36 68 L630 210" stroke="#68849a"/>
+    <path d="M36 150 L630 210" stroke="#9eb1be"/>
+    <path d="M36 270 L630 210" stroke="#b66a3c"/>
+    <path d="M36 352 L630 210" stroke="#8ea7b8"/>
+  </g>
+  <circle cx="630" cy="210" r="21" fill="#b66a3c" opacity=".14"/>
+  <circle cx="630" cy="210" r="12" fill="#b66a3c"/>
+</svg>
