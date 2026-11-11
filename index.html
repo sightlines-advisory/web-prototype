@@ -3,55 +3,161 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>Sightlines — Web Prototype</title>
-  <style>
-    :root { --ink:#13332c; --green:#167d62; --mint:#e7f3ee; --cream:#fbfaf5; --line:#cbdcd5; --muted:#597068; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--cream); }
-    .notice { padding:10px 20px; background:var(--ink); color:#fff; font-size:13px; text-align:center; }
-    header, main, footer { max-width:1120px; margin:auto; padding-left:28px; padding-right:28px; }
-    header { display:flex; justify-content:space-between; align-items:center; padding-top:25px; padding-bottom:25px; }
-    .brand { font-size:23px; letter-spacing:-.8px; font-weight:750; } .brand span { color:var(--green); }
-    nav { display:flex; gap:24px; font-size:14px; color:var(--muted); }
-    .hero { padding:78px 0 66px; max-width:790px; }
-    .eyebrow { margin:0 0 14px; font-weight:700; font-size:12px; letter-spacing:1.7px; color:var(--green); }
-    h1 { font-size:clamp(42px,7vw,75px); line-height:.98; letter-spacing:-3.7px; margin:0 0 26px; }
-    .hero p { max-width:650px; font-size:20px; line-height:1.55; color:var(--muted); }
-    .actions { margin-top:32px; display:flex; flex-wrap:wrap; gap:12px; }
-    .button { display:inline-block; padding:12px 17px; border-radius:3px; text-decoration:none; font-size:14px; font-weight:700; }
-    .button.primary { background:var(--green); color:#fff; } .button.secondary { color:var(--ink); border:1px solid var(--line); }
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; padding:18px 0 74px; }
-    .card { background:#fff; border:1px solid var(--line); padding:26px; min-height:205px; }
-    .num { color:var(--green); font-weight:750; font-size:13px; } h2 { font-size:23px; letter-spacing:-.7px; margin:16px 0 10px; } .card p { line-height:1.5; color:var(--muted); margin:0; }
-    .edit { margin:0 0 75px; border-left:4px solid var(--green); background:var(--mint); padding:28px; } .edit h2 { margin-top:0; } .edit code { background:#fff; padding:2px 5px; }
-    footer { padding-top:24px; padding-bottom:34px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
-    @media (max-width:700px) { nav { display:none; } .grid { grid-template-columns:1fr; } .hero { padding-top:48px; } }
-  </style>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Sightlines Advisory helps Australian boards and executives connect climate risk, AASB S2 disclosure and changing conditions to enterprise value, strategy and action.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sightlines Advisory">
+  <meta property="og:title" content="Climate Strategy &amp; AASB S2 Advisory | Sightlines Advisory">
+  <meta property="og:description" content="Turning climate risk into enterprise value: audit-ready AASB S2 climate compliance with human-led AI.">
+  <meta property="og:url" content="https://sightlines-advisory.com.au/">
+  <meta property="og:image" content="https://sightlines-advisory.com.au/assets/sightlines-social.png">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Climate Strategy &amp; AASB S2 Advisory | Sightlines Advisory">
+  <meta name="twitter:description" content="Turning climate risk into enterprise value: audit-ready AASB S2 climate compliance with human-led AI.">
+  <meta name="twitter:image" content="https://sightlines-advisory.com.au/assets/sightlines-social.png">
+  <title>Climate Strategy &amp; AASB S2 Advisory | Sightlines Advisory</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Sightlines Advisory","legalName":"SAR ACCG ADVISORY PTY LTD","url":"https://sightlines-advisory.com.au/","logo":"https://sightlines-advisory.com.au/assets/sightlines-wordmark.png","email":"hello@sightlines-advisory.com.au","description":"Climate strategy, AASB S2 disclosure and enterprise-value advisory."}</script>
 </head>
 <body>
-  <div class="notice">SIGHTLINES PROTOTYPE — working page, not client-ready</div>
-  <header>
-    <div class="brand">SIGHT<span>LINES</span></div>
-    <nav><span>Climate reporting</span><span>Strategy</span><span>About</span></nav>
+  <p class="prototype-banner"><strong>SIGHTLINES WEB PROTOTYPE</strong> — working copy; not the production site.</p>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Sightlines home">
+      <img class="brand-logo" src="assets/sightlines-wordmark.png?v=20260929" alt="Sightlines Advisory">
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">Menu</button>
+    <nav id="primary-navigation" class="header-nav" aria-label="Primary navigation">
+      <a href="#deliver">What we deliver</a>
+      <a href="#method">How we work</a>
+      <a href="about.html">About</a>
+      <a href="insights/index.html">Insights</a><a href="mailto:hello@sightlines-advisory.com.au">Contact</a>
+    </nav>
   </header>
-  <main>
+
+  <main id="top">
     <section class="hero">
-      <p class="eyebrow">WEB PROTOTYPE WORKSPACE</p>
-      <h1>Make climate reporting useful to the business.</h1>
-      <p>A live, editable prototype for developing Sightlines’ messages, offers and client experiences. This page is deliberately a starting point.</p>
-      <div class="actions"><a class="button primary" href="#start">Explore the prototype</a><a class="button secondary" href="https://github.com/sightlines-advisory/web-prototype">View source</a></div>
+      <div class="hero-copy">
+        <p class="eyebrow">SIGHTLINES ADVISORY</p>
+        <h1>Turning climate risk<br>into enterprise value.</h1>
+        <p class="hero-tagline">Audit-ready AASB S2 climate compliance with human-led AI.</p>
+        <p class="lede">Sightlines Advisory helps companies understand how changing conditions affect the way they create, protect and grow enterprise value.</p>
+        <p class="hero-support">We bring senior commercial, climate value, reporting and technology expertise together with sharp, AI-enabled tools to turn evidence into insight, decisions and action.</p>
+        <div class="hero-actions">
+          <a class="button" href="mailto:hello@sightlines-advisory.com.au?subject=Sightlines%20enquiry">Start a conversation</a>
+          <a class="text-link" href="#method">How we work <span>↓</span></a>
+        </div>
+        <p class="hero-signpost">Preparing for mandatory climate-related disclosure? <a href="aasb-s2-fast-track.html">Explore our Climate Disclosure AASB S2 Fast Track <span>→</span></a></p>
+      </div>
+      <div class="hero-art" aria-label="Multiple sightlines converge on a point of insight">
+        <img src="assets/sightlines-hero-v2.svg" alt="">
+      </div>
     </section>
-    <section class="grid">
-      <article class="card"><div class="num">01</div><h2>Start with the business</h2><p>Connect climate conditions to operations, cash flows, financing and decisions—not a separate ESG narrative.</p></article>
-      <article class="card"><div class="num">02</div><h2>Build reporting confidence</h2><p>Use the finance disciplines already in place: evidence, controls, reconciliations and a defensible reporting file.</p></article>
-      <article class="card"><div class="num">03</div><h2>Find the value</h2><p>Turn the reporting process into sharper decisions on resilience, risk, customers and capital.</p></article>
+
+    <section class="statement">
+      <p class="section-label">THE QUESTION WE ANSWER</p>
+      <h2>What matters?<br>Where is the value?<br>What follows?</h2>
+      <p>Companies face a growing field of changing conditions, risks and opportunities. The challenge is rarely a shortage of information. It is understanding what matters to your business, how it affects enterprise value and what management does next.</p>
+      <p>We start with the business. We identify the risks and opportunities that matter, follow the evidence to understand their consequences for enterprise value, and turn that insight into choices about what to do next.</p>
+      <p>We bring different perspectives together to establish a clearer line of sight from change to value.</p>
     </section>
-    <section id="start" class="edit">
-      <h2>For Susan: how to use this workspace</h2>
-      <p>Ask ChatGPT to make changes in the <code>sightlines-advisory/web-prototype</code> GitHub repository. Refresh this page after the GitHub Pages deployment completes. Keep changes as prototypes until David and Eskee promote them to the main Sightlines site.</p>
+
+    <section id="method" class="method">
+      <p class="section-label">HOW WE WORK</p>
+      <div class="method-grid">
+        <article>
+          <span>01</span>
+          <h3>See the business</h3>
+          <p>Understand how the company creates value: its business model, value drivers, assets, customers, relationships, capabilities and dependencies.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Understand what is changing</h3>
+          <p>Bring together evidence and perspectives to identify material risks and opportunities, test assumptions and understand how changing conditions could affect the enterprise.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Understand the value consequence</h3>
+          <p>Translate evidence into financial and enterprise value consequences for performance, assets, customers, capital and resilience.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Decide what follows</h3>
+          <p>Turn the analysis into response choices, priorities and practical management action.</p>
+        </article>
+      </div>
+      <p class="method-principle">Understanding before quantification. Evidence before assertion. Management judgement where it matters.</p>
+    </section>
+
+    <section class="method-visual">
+      <div class="method-visual-copy">
+        <p class="section-label">THE SIGHTLINES METHOD</p>
+        <h2>From evidence to assurance-ready climate reporting.</h2>
+        <p>We bring together what a company already knows with relevant public information, then make the evidence, assumptions and management decisions visible at every stage.</p>
+      </div>
+      <img src="assets/sightlines-method.svg" width="680" height="700" alt="The Sightlines Advisory method: company and public information feed an AI-assisted, expert-reviewed evidence register; this supports mapping the business, assessing exposure, locking the baseline and producing an assurance-ready AASB S2 report, with strategic uplift options at each stage.">
+    </section>
+
+    <section id="deliver" class="offer">
+      <div>
+        <p class="section-label">WHAT WE DELIVER</p>
+        <h2>Start where you are.<br>Go where the value is.</h2>
+      </div>
+      <div class="offer-list">
+        <p class="offer-intro">We stage the work. We offer a fast start so you can build confidence with stakeholders that disclosure requirements will be delivered efficiently.</p>
+        <article><h3>Climate-related disclosure — AASB S2</h3><p>Establish the evidence, analysis, governance and controls required for robust, auditable climate-related disclosure.</p></article>
+        <article><h3>Climate value analysis</h3><p>Understand how physical change, transition and opportunity flow through your business model to financial performance and enterprise value.</p></article>
+        <article><h3>Strategy and opportunity response</h3><p>Turn the analysis into choices about assets, customers, operations, investment, capabilities and capital.</p></article>
+        <p class="offer-note">These are connected parts of the same problem. We can begin with an immediate disclosure requirement or work from the broader business question.</p>
+      </div>
+    </section>
+
+    <section class="advantage">
+      <p class="section-label">WHY SIGHTLINES</p>
+      <h2>Senior people. Sharp tools. Better questions.</h2>
+      <div class="advantage-grid">
+        <article><h3>Enterprise first</h3><p>We start with how your company creates value, then examine how changing conditions affect it.</p></article>
+        <article><h3>Different perspectives</h3><p>Commercial, financial, climate value and technology expertise brought together around the same business questions.</p></article>
+        <article><h3>Evidence-led</h3><p>Transparent sources, explicit assumptions and a clear distinction between evidence, interpretation, uncertainty and data gaps.</p></article>
+        <article><h3>Human-led. AI-enabled.</h3><p>Senior judgement directs the work and management remains accountable for the decisions. AI accelerates evidence discovery, analysis and synthesis.</p></article>
+        <article><h3>Built to be used</h3><p>The analysis connects to strategy, operations, investment, customers, assets and financial performance.</p></article>
+      </div>
+    </section>
+
+    <section id="fast-track" class="pre-assessment">
+      <div>
+        <p class="section-label">CLIMATE DISCLOSURE AASB S2 FAST TRACK</p>
+        <h2>See what you have.<br>Know what you need.</h2>
+      </div>
+      <div class="pre-assessment-copy">
+        <p>A focused assessment for executives and boards preparing for mandatory climate-related disclosure.</p>
+        <p>See the evidence, analysis, governance and controls you already have, know what is missing, and identify what requires management judgement.</p>
+        <ul>
+          <li>Use the work already underway in your business.</li>
+          <li>Identify the gaps that matter.</li>
+          <li>Establish a practical path to robust, auditable disclosure.</li>
+        </ul>
+        <p class="regulatory-note">For many Australian entities, Group 2 reporting begins for financial years starting on or after 1 July 2026. Applicability depends on the entity and relevant legislative thresholds.</p>
+        <a class="button" href="aasb-s2-fast-track.html">Explore the Climate Disclosure AASB S2 Fast Track</a>
+      </div>
+    </section>
+
+    <section class="proof">
+      <div class="proof-copy"><p class="section-label">THE CLIMATE VALUE FRAMEWORK</p><h2>A rigorous method behind the advice.</h2><p>Our climate work is underpinned by the Climate Value Framework, developed to connect climate risk and opportunity to the way a company creates enterprise value.</p><p>The Framework provides a disciplined path from business understanding and evidence through risk and opportunity, financial consequence, response and decision. It supports traceability from the question being asked to the evidence used, analysis performed and decisions that follow.</p></div>
+      <img src="assets/climate-value-framework.svg" width="680" height="490" alt="The Climate Value Framework uses five questions through an enterprise-value lens: value today, climate influences and evidence diagnose exposure; financial impact and best responses determine action; board oversight applies across the cycle.">
+    </section>
+
+    <section class="contact">
+      <p class="section-label">SIGHTLINES ADVISORY</p>
+      <h2>What could you see differently?</h2>
+      <p>Changing conditions create risk. They also change where and how value can be created. Start with the business, follow the evidence and find what matters.</p>
+      <p class="contact-line">Seize your advantage.</p>
+      <a class="button light" href="mailto:hello@sightlines-advisory.com.au?subject=Sightlines%20enquiry">Start a conversation</a>
     </section>
   </main>
-  <footer>© Sightlines Advisory · Prototype workspace · Last updated 11 November 2026</footer>
+
+  <footer><span>© 2026 SAR ACCG ADVISORY PTY LTD trading as Sightlines Advisory.</span><span>Turning climate risk into enterprise value: audit-ready AASB S2 climate compliance with human-led AI.</span><a href="esg-policy.html">Our policies</a></footer>
+  <script src="site-navigation.js"></script>
 </body>
 </html>
