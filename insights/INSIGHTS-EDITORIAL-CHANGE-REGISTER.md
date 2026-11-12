@@ -163,3 +163,12 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Added five strategic leadership questions, continuous CVF paragraph and standard closing-question callout; retained Explainer designation and two related articles; updated customer cross-link title.
 - HTML commit `a79db9d46ac412e2ba8dceb340e379460dfc17a8`. One evidence figure, one illustrative company, one callout; staging noindex preserved.
 - **Publication gates:** independently verify Energy Consumers Australia question wording/denominators, ACCI quote, Telstra FY2025 primary source and precise description; add direct Telstra source link, confirm visual/mobile/accessibility and reading-time estimate. Supplier Guide not linked because not ready.
+
+### Competitive positioning signature Insight — 12 November 2026
+- Approved title: **What can you see that your competitors have missed?** (replaces *How can your business shape a competitive future through the transition?*); stable existing URL retained.
+- Replaced prior Explainer article body with approved comparative enterprise-value Insight: Connected Ground Civil / fictional Regional Civil Works, Emma Davis decision, Climate Value Framework analysis, three strategic questions and one closing callout.
+- Reclassified article as **Insight · Climate value · AASB S2: Strategy**, maturity **Major decisions**, estimated 5 minutes; retained Susan McHattie byline and November 2026 date.
+- Updated library card from Explainer typographic fact tile to established Insight tile design (Mist Grey heading, Steel Blue headline, Amber rule), including metadata, summary and Read insight label.
+- Replaced duplicate contextual link and source note, retained two curated related readings, horizontal scrollable semantic comparison table, unbordered illustrative company, staging noindex and draft notice.
+- Article commit `50052f0047847fa0cce65b29738ac4ecebb16bd0`; index commit `57965b45e379e34771edd1d3a81ee92c9ff91996`.
+- **Publication checks outstanding:** browser verification at 360px, 768px and desktop, keyboard table navigation and links, content/author approval and estimated reading time. Fictional company comparison must remain clearly labelled.
