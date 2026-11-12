@@ -134,3 +134,9 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Applied same paragraph-flow principle to Article 2 Junction Freight, Article 3 Verdant Grid and Article 4 Junction Freight; preserved distinct executive questions and substantive content. Repaired incomplete introductory sentences left by earlier heading edits. Stakeholder examples already follow the continuous introduction plus separate question pattern.
 - Recorded reusable rule in page rules (`9dd3458a6f909615b2c7ba7775f17b1ea066b702`), updated shared CSS spacing (`34a0b2a9d9c861ee67150b451c87c74e9ecdf6bf`), and refreshed CSS cache keys across five affected articles.
 - Staging only; browser visual checks remain outstanding.
+
+### Article 6 — Investors want to understand how your business will create value — approved implementation 12 November 2026
+- All seven editorial edits approved and implemented in staging. User amendments retained verbatim for Edit 1 (boards and management; investment-case question), Edit 4 (two-paragraph investor confidence introduction), Edit 6 (single CVF paragraph) and Edit 7 (final leadership statement). Edit 3 uses Rebecca Chen (CEO) and Thomas Murray (CFO) in the approved executive-perspectives format.
+- HTML commit `76bf41a240072389ddaaa5389169d10fb03c584e`.
+- Preserved IGCC four-measure evidence figure, Rebecca Mikula-Wright quotation, source note and two related readings. Added Southern Cross illustration, five-question investor test, distinction between disclosure and investor engagement, and one closing-question callout.
+- Structural checks: one evidence figure, one illustrative company, one callout, two related articles. **Outstanding:** verify IGCC source survey definitions and figures and quotation against original publication, confirm illustrative executive names against controlled company register, browser/mobile/accessibility and link checks. Staging only; not publication approved.
