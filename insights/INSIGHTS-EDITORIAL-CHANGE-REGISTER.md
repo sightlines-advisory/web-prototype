@@ -78,3 +78,8 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Illustrative calculation checked: ($120,000 × 4 × 50% × 30%) + $55,000 + $20,000 = $147,000. Not an annual expected loss, scenario projection or valuation.
 - Existing technical risk tables, register fields and two related readings retained. No future Method dead link introduced.
 - Repository content verification complete; live browser/mobile visual rendering, external links, source and author/publication checks pending. **Not publication approved.**
+
+### Closing-question formatting standard — 12 November 2026
+- Article 2's closing-question HTML pattern is the reference: `<div class="article-callout"><strong>…?</strong></div>` immediately before source notes/related readings.
+- Article 1 updated to match: commit `37ea1f0f53a544b747839924f6dcda983ed0ea79`, blob `9b9db8fe03b80e598a319b5c2991c3f773fd75de`.
+- Future articles: apply this treatment when an approved substantive closing question exists; do not manufacture a question, add one-off CSS, or modify unapproved wording. Verify visual/mobile treatment in staging.
