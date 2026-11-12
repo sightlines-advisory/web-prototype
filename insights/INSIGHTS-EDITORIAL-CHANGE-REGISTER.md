@@ -94,3 +94,7 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Opening 'Three things leaders need' changed to ordinary text bullets, preserving approved wording. Article commit `7825ae172f723943c190b610746c576a1292e82a`.
 - Closing checklist remains the sole numbered, tickable component; numbers now match heading font size (18–23px responsive). CSS commit `50b418cbdad8b8ac06f4e3ade56898cff0d01e0a`.
 - Design standard updated: summaries use bullets; actionable checklists use reusable component. Live visual verification remains pending.
+
+### Article 03 checklist alignment refinement — 12 November 2026
+- Checklist number aligned with the first heading line, matching font size and line-height; checkbox centred horizontally in number column beneath it. CSS commit `f256cdc6060c0a8ea62c47c3b2d73c043877ddcc`.
+- Reusable design rules updated. CSS/code checks complete; browser visual review pending.
