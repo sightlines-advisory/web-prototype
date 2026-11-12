@@ -326,3 +326,12 @@
 .article-content .table-scroll:focus-visible{outline-color:var(--sl-copper-text)}
 .article-content .method-download a:focus-visible,
 .featured-method-actions a:focus-visible{outline-color:var(--sl-amber)}
+
+
+/* Accessible data tables: visible scroll instructions and screen-reader captions. */
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.article-content .table-scroll-hint{font-size:14px;line-height:1.55;color:var(--sl-steel-blue-text,#4B6475);margin:10px 0 8px}
+.article-content .article-table-scroll tbody th[scope="row"],
+.article-content .table-scroll tbody th[scope="row"]{text-align:left;font-weight:600;vertical-align:top}
+.article-content .article-table-scroll:focus-visible,
+.article-content .table-scroll:focus-visible{outline:3px solid var(--sl-copper-text,#995022);outline-offset:3px}
