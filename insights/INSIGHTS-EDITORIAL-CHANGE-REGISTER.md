@@ -128,3 +128,9 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Staging HTML commit `f1e5b2daafbb6d9430fff3ee24d4457ef0ad74dd`; blob `d3aa20a2d56459d6415ba10377fd7e192a55e5bd`.
 - Retained three South Pole evidence figures and source qualifications, four Advanced criteria distinct from four implementation building blocks, five CVF method questions, and original report-cover placeholder. Added Verdant Grid executive-perspectives illustration, enterprise investment test, single approved closing callout and secondary contact link.
 - Structural check: three evidence figures, one illustrative company component, one closing callout, five method questions. **Outstanding:** browser checks at 360px/768px/desktop, accessibility, report source figure/definitions verification, cover image rights and upload. Staging only, not approved for publication.
+
+### Illustrative company narrative flow — 12 November 2026
+- Article 5: inserted user-approved transition before Verdant Grid; combined short opening paragraphs; retained separate paragraph after Daniel's leadership question; combined final synthesis into one paragraph (commit `f3e2883fd1b24549c65e6c38334b84c9b075dfcc`).
+- Applied same paragraph-flow principle to Article 2 Junction Freight, Article 3 Verdant Grid and Article 4 Junction Freight; preserved distinct executive questions and substantive content. Repaired incomplete introductory sentences left by earlier heading edits. Stakeholder examples already follow the continuous introduction plus separate question pattern.
+- Recorded reusable rule in page rules (`9dd3458a6f909615b2c7ba7775f17b1ea066b702`), updated shared CSS spacing (`34a0b2a9d9c861ee67150b451c87c74e9ecdf6bf`), and refreshed CSS cache keys across five affected articles.
+- Staging only; browser visual checks remain outstanding.
