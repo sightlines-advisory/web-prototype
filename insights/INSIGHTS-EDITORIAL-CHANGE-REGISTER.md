@@ -154,3 +154,12 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Added Fieldwork Technical & Digital illustrative-company story with established Founder and CEO Alex Morgan and exact approved leadership question about attracting, retaining and developing people for a low carbon, resilient economy. Five-question workforce capability test, CVF paragraph and closing question updated.
 - HTML commit `07c161def6d9864a600faa9d5b07d9f99dba0558`. Structural checks: one evidence figure, one illustrative company, one closing callout, noindex preserved.
 - **Outstanding publication checks:** verify Deloitte 2025/2026 primary Australian report figures, precise denominator and wording, ACTU quote and source link, replace general Deloitte press-room link with direct source links; verify visual/mobile/accessibility and external links. Staging only, not publication approved.
+
+### Supplier article — approved revisions implemented 12 November 2026
+- Updated standfirst and opening with user-approved language: bilateral commercial value, prioritisation of material supplier relationships and feasible pathways to ongoing benefit.
+- Retained Energy Consumers Australia evidence figure; revised interpretation and survey limitations, including user's wording and correction of 'the might' to 'that might'.
+- Expanded publicly observed Telstra FY2025 supplier example (environmental disclosures, contract provisions, eco-design), without claiming outcomes.
+- Added fictional Mallee Harvest Foods illustration, retaining established Managing Director Helen Russo, new proposed leadership question and user-approved concluding synthesis.
+- Added five strategic leadership questions, continuous CVF paragraph and standard closing-question callout; retained Explainer designation and two related articles; updated customer cross-link title.
+- HTML commit `a79db9d46ac412e2ba8dceb340e379460dfc17a8`. One evidence figure, one illustrative company, one callout; staging noindex preserved.
+- **Publication gates:** independently verify Energy Consumers Australia question wording/denominators, ACCI quote, Telstra FY2025 primary source and precise description; add direct Telstra source link, confirm visual/mobile/accessibility and reading-time estimate. Supplier Guide not linked because not ready.
