@@ -116,3 +116,9 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Added relevance/consequence/evidence materiality test, revised stakeholder comparison and AASB S2 questions, company illustration styling, and closing question callout. Removed duplicate introductory investor link and source note.
 - Commit `46f0a380b18e5c5136263aa1db28f9b862a7c3b7`; blob `287e94049b5a1489cc572fed3eae60ef14a195a7`.
 - Structural checks: two illustrative company blocks, one source note, one closing callout and one table source note. Shared CSS carries no automatic table hyphenation and standard source type. Browser/mobile verification and original source checks outstanding; no publication approval.
+
+### Cross-article illustrative company consistency pass — 12 November 2026
+- Applied existing shared Green Copper illustrative company component to Article 2 Junction Freight (commit `c54c3984ecca0a5ccee9095298e90a6b52ee60f6`) and Article 3 Harbourstay, Southern Cross Commercial Finance and Verdant Grid (commit `5e29ee091be8784e8b94d4ad8b832481d9ca9476`).
+- Updated Article 4 Junction Freight opening to avoid repeating the heading (commit `fd540785456f86618493510472a38b671cd42f1c`), and stakeholder overview Fieldwork/Mallee openings likewise (commit `60c2d75d231deef84f746d08477b7965e50890bd`). Preserved approved leadership questions and substantive data.
+- Formalised the three narrative modes — enterprise illustration, integrated narrative highlight, executive perspectives — and editorial/verification gate in page rules (commit `cace18723b6a4d20fd375cfe195c12dc696f5fc6`). Apply to Article 5 and all subsequent articles in this editing process.
+- **Outstanding:** browser/mobile visual inspection and semantic markup checks before publication. Changes are staging-only; no publication approval.
