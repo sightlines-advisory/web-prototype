@@ -172,3 +172,12 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Replaced duplicate contextual link and source note, retained two curated related readings, horizontal scrollable semantic comparison table, unbordered illustrative company, staging noindex and draft notice.
 - Article commit `50052f0047847fa0cce65b29738ac4ecebb16bd0`; index commit `57965b45e379e34771edd1d3a81ee92c9ff91996`.
 - **Publication checks outstanding:** browser verification at 360px, 768px and desktop, keyboard table navigation and links, content/author approval and estimated reading time. Fictional company comparison must remain clearly labelled.
+
+### Transition enablers Explainer — 12 November 2026
+- Retitled **What will enable your business to deliver its transition?**; stable article URL retained.
+- Retained seven-lens model and attribution to Stella Whittaker's adaptation of CLIMATEFIT, as referenced in *Performance or Compliance: your approach to climate risk matters*, Susan McHattie and Stella Whittaker, p. 17 and reference 35.
+- Added concrete internal capability examples and links to Australian Government/NSW program information, with explicit eligibility and closing-date caveats.
+- Expanded fictional Clearwater Infrastructure Services (Aroha Wilson, Peter Okafor) and Community Horizons Services (David Nguyen) while preserving their leadership roles and business models.
+- Strengthened enterprise-value/CVF connection, one closing callout, two related readings and updated competitive Insight link. Retained Explainer typography and staging noindex.
+- Updated Insights library card title, summary and author metadata. Article commits `cdb99a65a9c5fde8d42fae3b136cf2081bc21d86`, `dd870091e95ba44921a69b63797015546b7f2241`; index `ae9478ced89519cf6fa2bbe49677cdc969c66c06`.
+- **Publication gates:** verify external program availability, source URLs and attribution against original white paper; 360px/768px/desktop responsive and keyboard accessibility review; final editorial/byline approval and reading-time estimate.
