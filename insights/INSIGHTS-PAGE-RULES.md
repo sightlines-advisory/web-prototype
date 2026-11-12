@@ -182,3 +182,16 @@ Do not introduce headings or conspicuous labels merely to classify these stateme
 - Semantic HTML uses `sightlines-checklist`, `sightlines-checklist-item`, `sightlines-checklist-index`, `sightlines-checklist-check` and `sightlines-checklist-content`. Use native labelled checkbox inputs, visible keyboard focus, responsive columns and print-friendly empty boxes.
 - Article 3 uses the component only for the closing scenario-selection checklist; its opening 'Three things leaders need' summary is a normal text bulleted list. Use ordinary bullets for introductory summaries and the checklist component for actionable items readers may tick off. Reuse in future articles where a checklist is appropriate, not for every ordinary list. Maintain exportable SVG/HTML design assets separately from page content.
 - Susan's authorial voice uses **leaders** for distributed organisational leadership; reserve **management** for a specific management role or process. Preserve Sean's distinct voice.
+
+## 13. Illustrative company story selection and editing gate (12 November 2026)
+
+Apply this standard to **every article during the current sequential editorial review**, including Articles 2–4, the stakeholder expectations overview and all forthcoming articles. Review before proposing edits, again during implementation, and at the staging verification gate.
+
+Choose the narrative format to fit the purpose:
+1. **Enterprise illustration** — introduce a fictional company's business model, value drivers, dependencies and decision context when first used substantively.
+2. **Integrated narrative highlight** — use a brief natural reference when a previously introduced company supports the argument; do not force a separate illustrative-company block for a passing mention.
+3. **Executive perspectives** — present different named leaders' responsibilities and questions within a single company story where their distinct perspectives advance the analysis. Avoid separate company cards for each executive.
+
+For substantive standalone illustrations, use the shared `illustrative-company` component: Green Copper uppercase label, Deep Navy semibold company heading, 48px × 3px Green Copper rule, unbordered layout, and no unnecessary repetition of the company name in the first sentence. Identify fictional status clearly without implying actual results or client status. Keep established leadership names and roles, questions, assumptions and approved numerical examples unchanged unless specifically authorised. Do not create new executive personas merely to fill a template.
+
+Editorial gate: check narrative function, enterprise value connection, evidence/fiction distinction, executive voice, exact approved questions, visual consistency and responsive layout. Record deviations and outstanding browser checks in the editorial register. This is a reusable editorial standard, not a requirement to add fictional companies to every article.
