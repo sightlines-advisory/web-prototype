@@ -199,3 +199,32 @@ Editorial gate: check narrative function, enterprise value connection, evidence/
 ### Illustrative company paragraph-flow rule (12 November 2026)
 
 When an illustration needs a transition from research or analysis, place one concise connecting sentence **before** the illustrative-company block, not inside its identity heading. In the story, keep consecutive short introductory sentences about the business model, value drivers and opportunity in a continuous paragraph rather than separating every sentence with paragraph breaks. Use distinct paragraphs for named executive perspectives and their leadership questions; preserve a paragraph break after the final executive leadership question before the concluding synthesis. Keep the concluding synthesis in one paragraph, including its final sentence. Apply this rhythm to all illustrative-company stories during the ongoing editorial pass; retain intentional paragraph divisions for genuinely separate ideas or longer passages. Check mobile spacing and avoid forcing artificial breaks.
+
+
+## 15. Evidence and business information — editorial vocabulary standard (12 November 2026)
+
+**Principle.** Use *evidence* deliberately, not as a generic synonym for all information. Sightlines Advisory retains *evidence* where a claim, assumption, disclosure, assurance conclusion or environmental representation requires substantiation, and where it identifies a specific Climate Value Framework (CVF) methodological function, including **Enterprise Evidence**. Preserve the CVF formulation **“questions, evidence and perspectives.”**
+
+**Choose precise language for management decisions.**
+- **Data, metrics, measurements:** quantitative operating, emissions, asset or financial inputs.
+- **Information, business intelligence, market intelligence, customer insight:** knowledge about customers, competitors, markets, technologies and commercial conditions. Use *customer insight* for interpretation of customer needs, not merely a raw data point.
+- **Records, operating history, financial records, contracts, transaction records:** documented events and enterprise experience.
+- **Analysis, forecasts, assumptions, projections:** analytical processes and future estimates; distinguish them from observed outcomes.
+- **Results, demonstrated performance, track record:** outcomes that can be observed or tested.
+- **Research findings, scientific findings, observations:** external research and measured conditions; identify source, geography, sample, date and limitations.
+- **Proof:** use sparingly, only when the conclusion warrants a high degree of certainty. Evidence can support a defensible decision without establishing proof.
+
+**Disclosure boundary.** Retain *evidence* in climate-related financial disclosures, substantiation of environmental claims, control effectiveness and assurance contexts where appropriate. Do not weaken the standard of support required by changing a technical term to a casual synonym. When discussing a commercial decision rather than a disclosure requirement, prefer a concrete description of the information leaders would use.
+
+**Research graphic labels.** Use subject-specific visible labels such as **RESEARCH FINDINGS**, **INVESTOR RESEARCH**, **CONSUMER RESEARCH**, **EMPLOYEE RESEARCH** and **SMALL BUSINESS RESEARCH**. Retain existing figure accessibility, source attribution, survey denominator, geography and limitations. CSS class names such as `evidence-figure` may remain unchanged; they are implementation identifiers, not editorial language.
+
+**Editorial checks.**
+1. Identify what is actually known: a measurement, record, customer insight, operating result, projection, assumption or research finding.
+2. Name the input precisely, especially in executive questions and company illustrations.
+3. Distinguish observed outcomes from self-reported intentions, forecasts and scenarios.
+4. Avoid repeating *evidence* in adjacent headings and paragraphs when a more informative term is available.
+5. Preserve established CVF methodology terms and the rigour of disclosure and substantiation statements.
+6. When reviewing investor decisions, prefer **“Are those assumptions supported by financial records and operating results?”** where those are the relevant inputs.
+7. For transition enablers, use **“Planning and business intelligence”** and **“the available information and operating experience”** when referring to internal capability and delivery conditions.
+
+**Scope:** Applies to all Sightlines Insights editorial work. The separate five-step climate reporting guide was excluded from the November 2026 article terminology sweep and must be reviewed independently before applying these replacements there.
