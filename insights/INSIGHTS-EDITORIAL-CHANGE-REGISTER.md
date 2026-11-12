@@ -188,3 +188,11 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Revised fictional Community Horizons Services example to connect climate exposure, buildings and funding arrangements with partnership, workforce and culture capabilities, retaining David Nguyen.
 - No separate capability list added; one closing callout and two illustrative companies retained. Article commit `a8d16d42afbb567f5633e6cf8dd481d99cf12b53`.
 - Staging remains noindex; visual/mobile and source verification are outstanding publication checks.
+
+### Attributed Quote Standard v1.0 — 12 November 2026
+- Added §14 to `INSIGHTS-PAGE-RULES.md`: 4px Insight Copper left rule, enlarged responsive quote, standard/feature weights, compact/prominent speaker attribution, ≥12px source text, semantic figure/blockquote/figcaption, provenance/rights and responsive rules.
+- Added shared `attributed-quote` CSS to `insights.css`.
+- Audited all 12 articles currently linked from Insights library. Four real-person blockquotes converted: Rebecca Mikula-Wright (investors), Marianne Campbell (customers), Andrew McKellar (suppliers), Michele O'Neil (employees).
+- Verified four quotations against original IGCC, CPRC, ACCI and ACTU pages; added direct primary-source links and dates. Corrected IGCC speaker surname to Mikula-Wright; labelled CPRC quotation an excerpt; noted normalised ACCI punctuation/hyphenation.
+- No fictional executive dialogue converted. Existing article editorial content and source notes otherwise preserved.
+- **Outstanding:** visual inspection on 360px, 768px and desktop, focus/print testing; confirm publication permissions and quotation reuse requirements before release.
