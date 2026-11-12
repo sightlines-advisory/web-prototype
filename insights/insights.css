@@ -352,3 +352,11 @@
 .article-content .sightlines-checklist-check{min-width:44px;min-height:44px;width:44px;height:44px}
 .article-content .sightlines-checklist-check input{width:44px;height:44px}
 .article-content .sightlines-checklist-check input:focus-visible+.sightlines-checklist-box{outline-color:var(--sl-copper-text,#995022)}
+
+/* P3: readable, semantic article discovery metadata. */
+.insight-card .insight-card-meta{display:grid;gap:6px;margin:10px 0 16px;font-size:14px;line-height:1.5;letter-spacing:0;color:var(--sl-steel-blue-text,#4B6475)}
+.insight-card-meta-row{display:grid;grid-template-columns:78px minmax(0,1fr);gap:8px;align-items:start}
+.insight-card-meta-row dt{font-weight:700;color:var(--sl-deep-navy,#0E2A3B)}
+.insight-card-meta-row dd{margin:0;min-width:0;overflow-wrap:break-word}
+@media(max-width:400px){.insight-card-meta-row{grid-template-columns:1fr;gap:0}}
+.insight-card .text-link span[aria-hidden="true"]{display:inline-block}
