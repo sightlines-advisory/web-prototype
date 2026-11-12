@@ -177,7 +177,7 @@ Do not introduce headings or conspicuous labels merely to classify these stateme
 - **Publication gate:** verify 360px, 768px and desktop layouts, keyboard focus, accessible figures, valid links, byline approval, image rights and remove staging noindex only after publication approval.
 
 ### Reusable Sightlines Checklist B — approved 12 November 2026
-- Numbered editorial checklist, white background, Steel Blue text (#496476), thin Mist Grey border, prominent number with an open square checkbox directly underneath.
+- Numbered editorial checklist, white background, Steel Blue text (#496476), thin Mist Grey border, number at the same font size as the associated item heading, with an open square checkbox directly underneath.
 - Semantic HTML uses `sightlines-checklist`, `sightlines-checklist-item`, `sightlines-checklist-index`, `sightlines-checklist-check` and `sightlines-checklist-content`. Use native labelled checkbox inputs, visible keyboard focus, responsive columns and print-friendly empty boxes.
-- Article 3 uses the component twice: the opening leadership guide and closing scenario-selection checklist. Reuse in future articles where a checklist is appropriate, not for every ordinary list. Maintain exportable SVG/HTML design assets separately from page content.
+- Article 3 uses the component only for the closing scenario-selection checklist; its opening 'Three things leaders need' summary is a normal text bulleted list. Use ordinary bullets for introductory summaries and the checklist component for actionable items readers may tick off. Reuse in future articles where a checklist is appropriate, not for every ordinary list. Maintain exportable SVG/HTML design assets separately from page content.
 - Susan's authorial voice uses **leaders** for distributed organisational leadership; reserve **management** for a specific management role or process. Preserve Sean's distinct voice.
