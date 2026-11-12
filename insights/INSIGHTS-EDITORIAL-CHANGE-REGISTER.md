@@ -181,3 +181,10 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Strengthened enterprise-value/CVF connection, one closing callout, two related readings and updated competitive Insight link. Retained Explainer typography and staging noindex.
 - Updated Insights library card title, summary and author metadata. Article commits `cdb99a65a9c5fde8d42fae3b136cf2081bc21d86`, `dd870091e95ba44921a69b63797015546b7f2241`; index `ae9478ced89519cf6fa2bbe49677cdc969c66c06`.
 - **Publication gates:** verify external program availability, source URLs and attribution against original white paper; 360px/768px/desktop responsive and keyboard accessibility review; final editorial/byline approval and reading-time estimate.
+
+### Seven-lens internal capability mirror — 12 November 2026
+- Updated all seven lens questions in *What will enable your business to deliver its transition?* to pair external enabling conditions with corresponding internal response, influence and value-creation capabilities; retained the seven labels and Stella Whittaker attribution.
+- Revised fictional Clearwater Infrastructure Services example to connect infrastructure, industry and technology conditions with investment, finance and delivery capabilities, retaining Aroha Wilson and Peter Okafor.
+- Revised fictional Community Horizons Services example to connect climate exposure, buildings and funding arrangements with partnership, workforce and culture capabilities, retaining David Nguyen.
+- No separate capability list added; one closing callout and two illustrative companies retained. Article commit `a8d16d42afbb567f5633e6cf8dd481d99cf12b53`.
+- Staging remains noindex; visual/mobile and source verification are outstanding publication checks.
