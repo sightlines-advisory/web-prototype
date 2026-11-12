@@ -196,3 +196,12 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Verified four quotations against original IGCC, CPRC, ACCI and ACTU pages; added direct primary-source links and dates. Corrected IGCC speaker surname to Mikula-Wright; labelled CPRC quotation an excerpt; noted normalised ACCI punctuation/hyphenation.
 - No fictional executive dialogue converted. Existing article editorial content and source notes otherwise preserved.
 - **Outstanding:** visual inspection on 360px, 768px and desktop, focus/print testing; confirm publication permissions and quotation reuse requirements before release.
+
+
+### Evidence vocabulary and research labels — 12 November 2026
+- Reviewed 11 Insights articles (excluded `five-steps-confident-start-climate-reporting.html`) and implemented agreed substitutions for generic uses of *evidence*.
+- Preserved *evidence* for disclosures, environmental claim substantiation, assurance-related contexts and CVF methodology, including Enterprise Evidence and the phrase “questions, evidence and perspectives.”
+- Replaced visible generic **EVIDENCE FIGURE** labels with **RESEARCH FINDINGS**, **INVESTOR RESEARCH**, **CONSUMER RESEARCH**, **EMPLOYEE RESEARCH**, and **SMALL BUSINESS RESEARCH**; retained existing graphic components and source notes.
+- Incorporated user-approved wording: investor assumptions supported by **financial records and operating results**; stakeholder investment question **what customer insight**; transition enabling conditions **Planning and business intelligence**, and **the available information and operating experience**.
+- Added §15 to `INSIGHTS-PAGE-RULES.md` covering precise vocabulary, disclosure boundary, graphic labels and editorial checks.
+- No changes to the five-step reporting guide. Final editorial proofreading and staging visual checks remain outstanding.
