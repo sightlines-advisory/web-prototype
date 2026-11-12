@@ -98,3 +98,8 @@ No article implementation commits or approvals yet. Initial register commit is r
 ### Article 03 checklist alignment refinement — 12 November 2026
 - Checklist number aligned with the first heading line, matching font size and line-height; checkbox centred horizontally in number column beneath it. CSS commit `f256cdc6060c0a8ea62c47c3b2d73c043877ddcc`.
 - Reusable design rules updated. CSS/code checks complete; browser visual review pending.
+
+### Article 03 table legibility and source type — 12 November 2026
+- UNEP table assigned dedicated class and wider minimum columns, allowing horizontal scrolling rather than hyphenating or splitting words. Article commit `60a8bca88cd0b33a6316d91b53bea0b3b896459e`.
+- Global Insights table rule now disables automatic hyphenation and midword breaks. UNEP source paragraph uses standard 12px source typography. CSS commit `0c27fc1930d653830bcf457b67138aa41c3318d4`.
+- Words remain intact; line breaks between complete words remain allowed. Browser/mobile verification pending.
