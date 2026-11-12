@@ -122,3 +122,9 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Updated Article 4 Junction Freight opening to avoid repeating the heading (commit `fd540785456f86618493510472a38b671cd42f1c`), and stakeholder overview Fieldwork/Mallee openings likewise (commit `60c2d75d231deef84f746d08477b7965e50890bd`). Preserved approved leadership questions and substantive data.
 - Formalised the three narrative modes — enterprise illustration, integrated narrative highlight, executive perspectives — and editorial/verification gate in page rules (commit `cace18723b6a4d20fd375cfe195c12dc696f5fc6`). Apply to Article 5 and all subsequent articles in this editing process.
 - **Outstanding:** browser/mobile visual inspection and semantic markup checks before publication. Changes are staging-only; no publication approval.
+
+### Article 5 — Where is the business value in climate action? — approved implementation 12 November 2026
+- User approved all seven proposed edits, with exact amendments to Edit 1 standfirst, CEO/MD paragraph and portfolio leadership question; Edit 2 South Pole interpretation; Edit 5 five-question introduction; Edit 7 final portfolio question.
+- Staging HTML commit `f1e5b2daafbb6d9430fff3ee24d4457ef0ad74dd`; blob `d3aa20a2d56459d6415ba10377fd7e192a55e5bd`.
+- Retained three South Pole evidence figures and source qualifications, four Advanced criteria distinct from four implementation building blocks, five CVF method questions, and original report-cover placeholder. Added Verdant Grid executive-perspectives illustration, enterprise investment test, single approved closing callout and secondary contact link.
+- Structural check: three evidence figures, one illustrative company component, one closing callout, five method questions. **Outstanding:** browser checks at 360px/768px/desktop, accessibility, report source figure/definitions verification, cover image rights and upload. Staging only, not approved for publication.
