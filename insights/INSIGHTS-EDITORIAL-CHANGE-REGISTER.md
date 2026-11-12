@@ -209,7 +209,7 @@ No article implementation commits or approvals yet. Initial register commit is r
 
 ## 12 November 2026 — P2 figure accessibility and checklist interaction pass
 
-**Scope:** All 12 published-staging Insights articles, with a source-level inventory of 12 `figure` elements across five articles (seven research comparison figures, four attributed quotations and one external-report reference) plus the linked IPCC source figure in the global-warming article. The article-source figure and report reference were reviewed for provenance and reproduction limitations; no external graphic was introduced.
+**Scope:** All 12 published-staging Insights articles, with a source-level inventory of 13 `figure` elements across five articles (seven research comparison figures, four attributed quotations and one external-report reference) plus the linked IPCC source figure in the global-warming article. The article-source figure and report reference were reviewed for provenance and reproduction limitations; no external graphic was introduced.
 
 **Implemented:** Seven research comparison figures now derive accessible names from their visible headings and descriptions from their existing source captions, with a visible reminder that values are available in text and bars are visual comparisons. Existing numbers, qualifications, hyperlinks and attributions remain unchanged. Four quotation figures retain their semantic `blockquote`/`figcaption` structure and attribution. The IPCC external figure remains a source link rather than an unlicensed reproduced image.
 
