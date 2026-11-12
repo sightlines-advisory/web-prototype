@@ -263,3 +263,31 @@
 .article-content figure.attributed-quote--prominent .attributed-quote-role{font-size:14px}
 @media(max-width:480px){.article-content figure.attributed-quote{margin:22px 0;padding-left:16px}.article-content figure.attributed-quote blockquote p{font-size:21px}.article-content figure.attributed-quote--feature blockquote p{font-size:22px}}
 @media print{.article-content figure.attributed-quote{break-inside:avoid;page-break-inside:avoid}}
+
+
+/* Accessibility and responsive hardening — 12 November 2026.
+   WCAG 2.2 AA-oriented defaults; browser/AT conformance testing remains required. */
+:root{--insights-readable-muted:#40586A;--insights-focus:#9A4F21}
+.insight-type,.article-meta,.insight-card-meta,.article-hero .article-meta{font-size:clamp(14px,1rem,16px);line-height:1.55;letter-spacing:.035em;color:#40586A}
+.article-content .article-source-note,.article-content .article-table-source,.article-content .evidence-figure-caption,.article-content .lens-list-source,.article-content figure.attributed-quote .attributed-quote-source,.article-content figure.attributed-quote .attributed-quote-role{font-size:14px;line-height:1.65;color:#40586A}
+.evidence-figure-label,.illustrative-company-kicker,.lens-list-label{font-size:14px;line-height:1.5;letter-spacing:.035em;color:#40586A}
+.insights-grid .insight-card-body{overflow-wrap:break-word}
+.article-content,.article-hero,.insights-discovery,.insights-grid{min-width:0}
+.article-content img,.article-content svg,.article-content iframe,.article-content video{max-width:100%;height:auto}
+.article-content a,.article-related a,.insight-card a{overflow-wrap:anywhere}
+.article-content .article-table-scroll,.article-content .table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:auto}
+.article-content .article-table-scroll:focus-visible,.article-content .table-scroll:focus-visible{outline:3px solid #9A4F21;outline-offset:2px}
+.article-content .article-table-scroll table,.article-content .table-scroll table{border-collapse:collapse}
+.article-content .article-table-scroll th,.article-content .article-table-scroll td,.article-content .table-scroll th,.article-content .table-scroll td{line-height:1.5}
+.insights-filters button,#insights-search,.article-share-button,.menu-toggle{min-height:44px}
+:where(a,button,input,select,textarea,[tabindex="0"]):focus-visible{outline:3px solid #9A4F21;outline-offset:3px}
+@media(max-width:480px){
+ .article-content,.article-hero,.article-related,.insights-discovery{overflow-wrap:break-word}
+ .article-content .article-table-scroll,.article-content .table-scroll{width:100%;max-width:100%}
+ .article-content figure.attributed-quote{padding-left:14px}
+ .article-content figure.attributed-quote blockquote p{font-size:clamp(21px,5.5vw,26px)}
+ .insights-filters{flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
