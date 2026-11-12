@@ -205,3 +205,14 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Incorporated user-approved wording: investor assumptions supported by **financial records and operating results**; stakeholder investment question **what customer insight**; transition enabling conditions **Planning and business intelligence**, and **the available information and operating experience**.
 - Added §15 to `INSIGHTS-PAGE-RULES.md` covering precise vocabulary, disclosure boundary, graphic labels and editorial checks.
 - No changes to the five-step reporting guide. Final editorial proofreading and staging visual checks remain outstanding.
+
+
+## 12 November 2026 — P2 figure accessibility and checklist interaction pass
+
+**Scope:** All 12 published-staging Insights articles, with a source-level inventory of 12 `figure` elements across five articles (seven research comparison figures, four attributed quotations and one external-report reference) plus the linked IPCC source figure in the global-warming article. The article-source figure and report reference were reviewed for provenance and reproduction limitations; no external graphic was introduced.
+
+**Implemented:** Seven research comparison figures now derive accessible names from their visible headings and descriptions from their existing source captions, with a visible reminder that values are available in text and bars are visual comparisons. Existing numbers, qualifications, hyperlinks and attributions remain unchanged. Four quotation figures retain their semantic `blockquote`/`figcaption` structure and attribution. The IPCC external figure remains a source link rather than an unlicensed reproduced image.
+
+**Checklist improvements:** The three-step global-warming checklist and five-step climate-scenarios checklist now explain their temporary, non-submitted behaviour, expose a labelled group, and announce a running selected-count status through the existing Insights interactions script. Checkbox target areas are enlarged to 44×44 CSS pixels; keyboard focus uses approved accessible Copper. No persistent tracking or data collection was added.
+
+**Editorial verification still required before publication:** Validate all primary-source links and exact statistical denominators/wording, especially the Deloitte Australian cohort percentages across 2025 and 2026 and the CPRC/ECA consumer findings. Survey comparisons must not be presented as causal, representative of all Australian businesses, or time-series changes without evidence. This source-level accessibility pass does **not** certify statistical accuracy or rights clearance. David to verify rendered layout, screen-reader announcements, keyboard and mobile operation.
