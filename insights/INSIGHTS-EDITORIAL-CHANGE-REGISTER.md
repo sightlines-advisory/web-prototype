@@ -216,3 +216,12 @@ No article implementation commits or approvals yet. Initial register commit is r
 **Checklist improvements:** The three-step global-warming checklist and five-step climate-scenarios checklist now explain their temporary, non-submitted behaviour, expose a labelled group, and announce a running selected-count status through the existing Insights interactions script. Checkbox target areas are enlarged to 44×44 CSS pixels; keyboard focus uses approved accessible Copper. No persistent tracking or data collection was added.
 
 **Editorial verification still required before publication:** Validate all primary-source links and exact statistical denominators/wording, especially the Deloitte Australian cohort percentages across 2025 and 2026 and the CPRC/ECA consumer findings. Survey comparisons must not be presented as causal, representative of all Australian businesses, or time-series changes without evidence. This source-level accessibility pass does **not** certify statistical accuracy or rights clearance. David to verify rendered layout, screen-reader announcements, keyboard and mobile operation.
+
+
+## 12 November 2026 — P3 Insights library presentation and metadata
+
+**Implemented:** Converted the three repeated article-card metadata fields (By, Best for, Helps with) in all 11 library cards from bold text with line breaks to semantic description lists (`dl/dt/dd`), without changing field wording or article summaries. Added responsive label/value layout, preserving the approved Deep Navy and Accessible Steel Blue colours. Marked purely decorative typographic tile covers `aria-hidden="true"` to prevent screen readers repeating information already present in article titles and summaries. Hidden decorative read-link arrows from assistive technology. Made search result status updates atomic. Updated stylesheet cache version across the landing page and 12 articles.
+
+**Scope decisions:** Did not change article titles, descriptions, authorship, audience tags, source statements, scientific claims, published links or filtering categories. The featured method remains a separate featured card, not duplicated in the 11-card library.
+
+**Verification:** Source-level markup and CSS changes committed. Browser/mobile and assistive-technology validation remain assigned to David. Source citation verification and consistency of attribution require editorial evidence review before publication.
