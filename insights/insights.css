@@ -150,7 +150,7 @@
 /* Sightlines illustrative company treatment v1.0 — unbordered, value-seeking Green Copper identity. */
 .article-content .illustrative-company{margin:27px 0 31px;padding:0;background:transparent;border:0}
 .illustrative-company-header{display:flex;flex-direction:column;align-items:flex-start;gap:5px;margin-bottom:13px}
-.illustrative-company-kicker{color:#66856F;font-size:10px;font-weight:600;letter-spacing:.1em;line-height:1.5}
+.illustrative-company-kicker{color:#456A50;font-size:10px;font-weight:600;letter-spacing:.1em;line-height:1.5}
 .article-content .illustrative-company h3{margin:0;color:#0E2A3B;font-size:18px;line-height:1.4;font-weight:600}
 .illustrative-company-rule{display:block;width:48px;height:3px;background:#66856F;margin-top:2px}
 .article-content .illustrative-company p{margin:0;color:#294958}
@@ -248,7 +248,7 @@
 
 
 /* Attributed real-person quotations: Insight Copper Rule */
-.article-content figure.attributed-quote{display:block;box-sizing:border-box;width:100%;max-width:100%;margin:28px 0;padding:4px 0 4px 22px;border:0;border-left:4px solid #B56F46;border-radius:0;background:transparent;box-shadow:none;break-inside:avoid}
+.article-content figure.attributed-quote{display:block;box-sizing:border-box;width:100%;max-width:100%;margin:28px 0;padding:4px 0 4px 22px;border:0;border-left:4px solid #B66A3C;border-radius:0;background:transparent;box-shadow:none;break-inside:avoid}
 .article-content figure.attributed-quote blockquote{display:block;margin:0;padding:0;border:0;background:transparent}
 .article-content figure.attributed-quote blockquote p{margin:0;color:#0E2A3B;font-size:clamp(21px,2.1vw,26px);font-weight:400;line-height:1.42;letter-spacing:normal}
 .article-content figure.attributed-quote--feature blockquote p{font-size:clamp(22px,2.3vw,28px);font-weight:600}
@@ -258,7 +258,7 @@
 .article-content figure.attributed-quote .attributed-quote-role{display:block;font-size:13px;line-height:1.5;color:#496476}
 .article-content figure.attributed-quote .attributed-quote-source{display:block;font-size:12px;line-height:1.6;color:#5F7789;overflow-wrap:anywhere}
 .article-content figure.attributed-quote .attributed-quote-source a{color:inherit;text-decoration:underline;text-underline-offset:2px}
-.article-content figure.attributed-quote .attributed-quote-source a:focus-visible{outline:2px solid #B56F46;outline-offset:3px}
+.article-content figure.attributed-quote .attributed-quote-source a:focus-visible{outline:2px solid #B66A3C;outline-offset:3px}
 .article-content figure.attributed-quote--prominent .attributed-quote-name{font-size:19px}
 .article-content figure.attributed-quote--prominent .attributed-quote-role{font-size:14px}
 @media(max-width:480px){.article-content figure.attributed-quote{margin:22px 0;padding-left:16px}.article-content figure.attributed-quote blockquote p{font-size:21px}.article-content figure.attributed-quote--feature blockquote p{font-size:22px}}
@@ -267,7 +267,7 @@
 
 /* Accessibility and responsive hardening — 12 November 2026.
    WCAG 2.2 AA-oriented defaults; browser/AT conformance testing remains required. */
-:root{--insights-readable-muted:#40586A;--insights-focus:#9A4F21}
+:root{--insights-readable-muted:#40586A;--insights-focus:#995022}
 .insight-type,.article-meta,.insight-card-meta,.article-hero .article-meta{font-size:clamp(14px,1rem,16px);line-height:1.55;letter-spacing:.035em;color:#40586A}
 .article-content .article-source-note,.article-content .article-table-source,.article-content .evidence-figure-caption,.article-content .lens-list-source,.article-content figure.attributed-quote .attributed-quote-source,.article-content figure.attributed-quote .attributed-quote-role{font-size:14px;line-height:1.65;color:#40586A}
 .evidence-figure-label,.illustrative-company-kicker,.lens-list-label{font-size:14px;line-height:1.5;letter-spacing:.035em;color:#40586A}
@@ -276,11 +276,11 @@
 .article-content img,.article-content svg,.article-content iframe,.article-content video{max-width:100%;height:auto}
 .article-content a,.article-related a,.insight-card a{overflow-wrap:anywhere}
 .article-content .article-table-scroll,.article-content .table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:auto}
-.article-content .article-table-scroll:focus-visible,.article-content .table-scroll:focus-visible{outline:3px solid #9A4F21;outline-offset:2px}
+.article-content .article-table-scroll:focus-visible,.article-content .table-scroll:focus-visible{outline:3px solid #995022;outline-offset:2px}
 .article-content .article-table-scroll table,.article-content .table-scroll table{border-collapse:collapse}
 .article-content .article-table-scroll th,.article-content .article-table-scroll td,.article-content .table-scroll th,.article-content .table-scroll td{line-height:1.5}
 .insights-filters button,#insights-search,.article-share-button,.menu-toggle{min-height:44px}
-:where(a,button,input,select,textarea,[tabindex="0"]):focus-visible{outline:3px solid #9A4F21;outline-offset:3px}
+:where(a,button,input,select,textarea,[tabindex="0"]):focus-visible{outline:3px solid #995022;outline-offset:3px}
 @media(max-width:480px){
  .article-content,.article-hero,.article-related,.insights-discovery{overflow-wrap:break-word}
  .article-content .article-table-scroll,.article-content .table-scroll{width:100%;max-width:100%}
@@ -291,3 +291,38 @@
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+
+/* Sightlines approved brand palette and accessibility text companions — 12 Nov 2026.
+   Original hues are preserved for semantic graphics and accents.
+   Deep Amber is reserved for accessible amber-coloured TEXT, never fills or rules. */
+:root{
+ --sl-deep-navy:#0E2A3B;
+ --sl-steel-blue:#5F7789;
+ --sl-copper:#B66A3C;
+ --sl-green-copper:#66856F;
+ --sl-amber:#E28A3A;
+ --sl-mist-grey:#B9C6CF;
+ --sl-warm-grey:#EEE9E1;
+ --sl-steel-blue-text:#4B6475;
+ --sl-copper-text:#995022;
+ --sl-green-copper-text:#456A50;
+ --sl-deep-amber-text:#8C5900;
+ --insights-focus:var(--sl-copper-text);
+}
+/* Original brand amber remains a decorative accent and CTA fill, never small text. */
+.insight-rule,.tile-art--insight .insight-rule{background:var(--sl-amber)}
+.illustrative-company-rule{background:var(--sl-green-copper)}
+.illustrative-company-kicker{color:var(--sl-green-copper-text)}
+.article-content figure.attributed-quote{border-left-color:var(--sl-copper)}
+.article-content figure.attributed-quote .attributed-quote-source a:focus-visible{outline-color:var(--sl-copper-text)}
+/* Accessible application tokens for normal text on white and warm-grey surfaces. */
+.article-content .evidence-figure-label,.article-content .lens-list-label{color:var(--sl-steel-blue-text)}
+/* Use this semantic class only for amber-coloured text on light surfaces. */
+.sl-amber-text{color:var(--sl-deep-amber-text)}
+/* Visible focus against light surfaces; dark CTA areas use the original bright amber. */
+:where(a,button,input,select,textarea,[tabindex="0"]):focus-visible,
+.article-content .article-table-scroll:focus-visible,
+.article-content .table-scroll:focus-visible{outline-color:var(--sl-copper-text)}
+.article-content .method-download a:focus-visible,
+.featured-method-actions a:focus-visible{outline-color:var(--sl-amber)}
