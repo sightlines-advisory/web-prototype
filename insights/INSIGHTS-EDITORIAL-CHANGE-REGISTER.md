@@ -89,3 +89,8 @@ No article implementation commits or approvals yet. Initial register commit is r
 - Article commit `5aa300e4e6c9596b60cbc723122a228b40cd4c1c`, blob `436a9b17f039fcf14f7330b917e5e01f52135f02`; CSS commit `8f76ef6e7640762d5dd6e60fd4ffd1e00dc5ba55`.
 - Approved checklist B implemented twice, with Steel Blue on white, open checkbox below number, accessible native inputs and print CSS. Six checkbox inputs present.
 - IPCC source figure link and two related readings retained. **Outstanding:** verify AASB S2 scenario wording, WMO and UNEP figures, IPCC source, rights and mobile/browser rendering; publication not approved.
+
+### Article 03 checklist refinement — 12 November 2026
+- Opening 'Three things leaders need' changed to ordinary text bullets, preserving approved wording. Article commit `7825ae172f723943c190b610746c576a1292e82a`.
+- Closing checklist remains the sole numbered, tickable component; numbers now match heading font size (18–23px responsive). CSS commit `50b418cbdad8b8ac06f4e3ade56898cff0d01e0a`.
+- Design standard updated: summaries use bullets; actionable checklists use reusable component. Live visual verification remains pending.
