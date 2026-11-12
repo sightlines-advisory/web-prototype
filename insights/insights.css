@@ -344,3 +344,11 @@
 .article-content .article-toc a{color:var(--sl-steel-blue-text,#4B6475);text-decoration:underline;text-underline-offset:3px}
 .article-content h2[id]{scroll-margin-top:24px}
 @media(max-width:650px){.article-content .article-toc ul{grid-template-columns:minmax(0,1fr)}}
+
+/* P2 research figure and checklist accessibility. */
+.figure-accessibility-note{display:block;font-size:14px;line-height:1.5;color:var(--sl-steel-blue-text,#4B6475);margin-bottom:7px}
+.article-content .checklist-instructions{font-size:15px;line-height:1.6;color:var(--sl-deep-navy,#0E2A3B);margin:12px 0 8px}
+.article-content .sightlines-checklist .checklist-progress{margin:0 0 2px;font-size:14px;line-height:1.5;font-weight:600;color:var(--sl-steel-blue-text,#4B6475)}
+.article-content .sightlines-checklist-check{min-width:44px;min-height:44px;width:44px;height:44px}
+.article-content .sightlines-checklist-check input{width:44px;height:44px}
+.article-content .sightlines-checklist-check input:focus-visible+.sightlines-checklist-box{outline-color:var(--sl-copper-text,#995022)}
