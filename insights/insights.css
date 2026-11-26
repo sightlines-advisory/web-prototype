@@ -360,3 +360,10 @@
 .insight-card-meta-row dd{margin:0;min-width:0;overflow-wrap:break-word}
 @media(max-width:400px){.insight-card-meta-row{grid-template-columns:1fr;gap:0}}
 .insight-card .text-link span[aria-hidden="true"]{display:inline-block}
+
+/* Approved governance Insight: original Copper, large white text, decorative Amber rule. */
+.tile-art.tile-art--governance{background:#B66A3C;color:#fff;aspect-ratio:4/5}
+.tile-art--governance p{color:#fff;font-size:19px;font-weight:700;line-height:1.25}
+.tile-art--governance strong{color:#fff;font-size:clamp(24px,2.5vw,34px);font-weight:700;line-height:1.15}
+.tile-art--governance .insight-rule{background:#E28A3A}
+.article-content .sightlines-checklist-content h4{font-size:inherit;line-height:inherit;color:var(--sl-steel-blue-text,#4B6475);margin:0 0 8px}
