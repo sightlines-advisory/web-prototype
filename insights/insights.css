@@ -160,10 +160,10 @@
 .featured-method-sequence span{border-top-width:3px;border-top-style:solid}
 .featured-method-sequence span:last-child{border-top-color:#66856F}
 
-/* Insight research tile v1 — mist heading, Steel Blue title, Amber half-rule. */
-.tile-art--insight{display:flex;flex-direction:column;background:#F3F5F3;color:#5F7789}
-.tile-art--insight p{color:#8B9DA8;font-size:11px;letter-spacing:.14em}
-.tile-art--insight strong{font-size:clamp(32px,3.6vw,45px);line-height:1.06;margin-top:28px;color:#5F7789}
+/* Canonical Insight tile — approved Copper treatment. */
+.tile-art--insight{display:flex;flex-direction:column;background:#B66A3C;color:#FFFFFF}
+.tile-art--insight p{color:#F2E5DB;font-size:11px;letter-spacing:.14em}
+.tile-art--insight strong{font-size:clamp(32px,3.6vw,45px);line-height:1.06;margin-top:28px;color:#FFFFFF}
 .insight-rule{display:block;width:50%;height:3px;background:#E28A3A;margin-top:auto}
 /* Report image slot: original report cover requires a cleared source asset. */
 .article-content .south-pole-report-reference{margin:16px 0 36px}
@@ -209,11 +209,6 @@
 @media(max-width:1099px){.article-content>.article-table-scroll,.article-content>.evidence-figure,.article-content>.lens-list,.article-content>.article-source-figure{width:100%;max-width:100%;margin-left:0;margin-right:0}}
 @media(max-width:760px){.article-content{width:calc(100% - 2 * var(--insights-page-gutter));padding:46px 0 70px}.article-hero{padding:64px var(--insights-page-gutter) 48px}.article-content>.article-table-scroll{overflow-x:auto}}
 
-/* Approved Insight tile Option A: Copper field, pale heading, white title, Amber half rule. */
-.tile-art--insight{background:#B66A3C;color:#FFFFFF}
-.tile-art--insight p{color:#F2E5DB}
-.tile-art--insight strong{color:#FFFFFF}
-.tile-art--insight .insight-rule{background:#E28A3A;width:50%;height:3px}
 
 /* Sightlines Checklist B: reusable, white ground and Steel Blue text; open tick box below number. */
 .sightlines-checklist{display:grid;gap:18px;margin:24px 0 30px;color:#496476}
@@ -361,7 +356,6 @@
 @media(max-width:400px){.insight-card-meta-row{grid-template-columns:1fr;gap:0}}
 .insight-card .text-link span[aria-hidden="true"]{display:inline-block}
 
-/* Approved governance Insight: original Copper, large white text, decorative Amber rule. */
-/* Governance tile inherits standard Insight dimensions and typography. */
-.tile-art--governance p{color:#fff;font-size:11px}
+/* Approved white kicker variant: colour only; no geometry overrides. */
+.tile-art--white-kicker p{color:#fff}
 .article-content .sightlines-checklist-content h4{font-size:inherit;line-height:inherit;color:var(--sl-steel-blue-text,#4B6475);margin:0 0 8px}
