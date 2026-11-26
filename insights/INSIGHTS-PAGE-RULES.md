@@ -79,7 +79,7 @@ Show content type and maturity prominently. Present AASB S2 and transition-plann
 
 ## 4. Tile system
 
-- Standard tile proportion: **4:5 portrait**.
+- Standard library cover: inherit shared `.tile-art` and `.insights-grid .tile-art` dimensions; do not impose a 4:5 aspect ratio on the cover. The 4:5 design reference describes the original card concept, not a mandatory cover ratio.
 - The visual cover occupies about **42–45%** of the card.
 - Typographic tiles are for Explainers, Guides and Methods: Explainers are light/evidence-led; Guides are practical and action-oriented; Methods are ink-navy/dark and structured.
 - Photographic tiles are for Case studies and Interviews. Keep the heading below the image; do not heavily tint it.
@@ -89,12 +89,14 @@ Show content type and maturity prominently. Present AASB S2 and transition-plann
 - Retain any required credit, licence or usage constraint recorded with the chosen asset.
 
 ### Colour meanings
-
-- Ink navy: system, method, authority
-- Slate blue: evidence and context
-- Copper: Insight
-- Value green: action, implementation, value and applied cases
-- Warm orange: thresholds, urgency or restrained emphasis
+- Deep Navy #0E2A3B: enterprise, method, authority
+- Steel Blue #5F7789: evidence
+- Copper #B66A3C: Insight
+- Green Copper #66856F: value and applied cases
+- Amber #E28A3A: opportunity and decorative emphasis
+- Mist Grey #B9C6CF: structure
+- Warm Grey #EEE9E1: space
+- Accessible text companions: Steel Blue #4B6475, Copper #995022, Green Copper #456A50, Deep Amber #8C5900. Deep Amber is text only; retain original Amber for accents.
 
 ## 5. Observed cases
 
@@ -168,7 +170,7 @@ Do not introduce headings or conspicuous labels merely to classify these stateme
 
 ## 12. Approved editorial components and research controls (November 2026)
 
-- **Insight** is the single article type for authored interpretation of research. “Research” may describe the evidence base, but must not appear as a second article type. The Insight tile uses a Mist Grey uppercase AASB S2 heading, Steel Blue headline and Amber half-line.
+- **Insight** is the single article type for authored interpretation of research. “Research” may describe the evidence base, but must not appear as a second article type. The Insight tile uses the approved Copper background, white main headline and Amber half-line. Use the existing shared tile dimensions and typography. The small kicker contrast is an outstanding design approval issue; the governance tile uses the approved white kicker variant.
 - **Evidence Figure:** white background, Mist Grey borders, Steel Blue neutral measures, Green Copper opportunity or value, Copper constraints. Cite primary source, sample, geography, date, denominator and material qualifications. Do not repeat each plotted statistic verbatim in adjacent prose.
 - **Illustrative Company:** no enclosing border; small Green Copper label, semibold Deep Navy company name, 48px by 3px Green Copper rule. Avoid repeating the name in the first sentence. Fictional outcomes must not be described as observed evidence.
 - **Lens List:** icon-led questions, labels without hyphens, source note; not a table.
@@ -228,3 +230,7 @@ When an illustration needs a transition from research or analysis, place one con
 7. For transition enablers, use **“Planning and business intelligence”** and **“the available information and operating experience”** when referring to internal capability and delivery conditions.
 
 **Scope:** Applies to all Sightlines Insights editorial work. The separate five-step climate reporting guide was excluded from the November 2026 article terminology sweep and must be reviewed independently before applying these replacements there.
+
+## 16. Mandatory component consistency gate
+
+The [Insights Component Register](INSIGHTS-COMPONENT-REGISTER.md) governs implementation. Inspect the current shared CSS and reference HTML before staging. Reuse the canonical component; change content and metadata only. No article-specific dimensions, colours, spacing, typography, aspect ratios or inline styles without explicit approval. Compare classes, markup and computed presentation with the reference component. Record source checks and rendered browser checks separately; unresolved conflicts must be escalated, not silently resolved. Run the component checker before staging and again after changes. Preserve substantive approved copy. Browser and assistive technology acceptance remain required before publication.
