@@ -234,3 +234,6 @@ When an illustration needs a transition from research or analysis, place one con
 ## 16. Mandatory component consistency gate
 
 The [Insights Component Register](INSIGHTS-COMPONENT-REGISTER.md) governs implementation. Inspect the current shared CSS and reference HTML before staging. Reuse the canonical component; change content and metadata only. No article-specific dimensions, colours, spacing, typography, aspect ratios or inline styles without explicit approval. Compare classes, markup and computed presentation with the reference component. Record source checks and rendered browser checks separately; unresolved conflicts must be escalated, not silently resolved. Run the component checker before staging and again after changes. Preserve substantive approved copy. Browser and assistive technology acceptance remain required before publication.
+
+### Climate terminology
+Avoid ‘climate influences’ in public-facing copy. Use climate-related changes for external conditions before assessment; climate hazards for physical climate phenomena; climate risks and opportunities for enterprise exposure, strategy, financial impacts and disclosure. Prefer specific commercial language where possible. Preserve the distinction between external changes and assessed enterprise risks and opportunities.
